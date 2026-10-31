@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.uxh0A31G.mjs";function t(e,t){return{description:`Sites is a digital design studio creating high-performing websites, products, and brands that drive measurable business results.`,favicon:`https://framerusercontent.com/assets/OjhWFXKuV2NXKu3h9lmi4Nr6Y0.png`,robots:`max-image-preview:large`,socialImage:`https://framerusercontent.com/assets/jhktAaXaKmEJY3ctlo5t84iGEHw.png`,title:`Sites - Design that drives decisions | Framer Template`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=siteMetadata.CPHH1qzD.mjs.map

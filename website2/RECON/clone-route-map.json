@@ -1,0 +1,579 @@
+{
+  "label": "clone",
+  "url": "http://127.0.0.1:8080",
+  "capturedAt": "2026-10-16T13:57:46.798Z",
+  "maxPages": 25,
+  "maxDepth": 2,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "http://127.0.0.1:8080",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+      "lang": "\"fr\"",
+      "metaDescription": "",
+      "h1": [
+        "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+        },
+        {
+          "tag": "h2",
+          "text": "DerniÃ¨re Ã©tude de cas avec BI NEWVISION"
+        },
+        {
+          "tag": "h2",
+          "text": "Esprits Digitaux. Une agence pensÃ©e pour lâ€™impact."
+        },
+        {
+          "tag": "h2",
+          "text": "AxÃ©s sur le B2B nous livrons stratÃ©gie, design et dÃ©veloppement pensÃ©s pour la croissance."
+        },
+        {
+          "tag": "h3",
+          "text": "DÃ©couvrez nos"
+        },
+        {
+          "tag": "h2",
+          "text": "DERNIÃˆRES Ã‰TUDES DE CAS"
+        },
+        {
+          "tag": "h2",
+          "text": "Le Pouvoir de l'expertise digitale"
+        },
+        {
+          "tag": "h2",
+          "text": "Pourquoi collaborer avec"
+        },
+        {
+          "tag": "h3",
+          "text": "GRANDE CHARTE DIGITAL?"
+        },
+        {
+          "tag": "h2",
+          "text": "Expertise Technologique"
+        },
+        {
+          "tag": "h2",
+          "text": "Collaboration & Alignement"
+        },
+        {
+          "tag": "h2",
+          "text": "Approche CentrÃ©e Utilisateur"
+        },
+        {
+          "tag": "h2",
+          "text": "AVEZ-VOUS UN PROJET ?"
+        },
+        {
+          "tag": "h3",
+          "text": "PARLONS-EN !"
+        },
+        {
+          "tag": "h2",
+          "text": "AccÃ¨s rapide"
+        },
+        {
+          "tag": "h2",
+          "text": "lien utiles"
+        },
+        {
+          "tag": "h2",
+          "text": "Social Media"
+        }
+      ],
+      "counts": {
+        "links": 31,
+        "images": 45,
+        "canvas": 6,
+        "forms": 0,
+        "buttons": 6
+      },
+      "linkCount": 31,
+      "screenshot": "screenshots\\127.0.0.1-f0313c92.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-22-0c5e317d.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/en%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-en-22-3d72af7b.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/a-propos%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-a-propos-22-eb10e114.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/services%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-services-22-8d6e1cd0.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-etudes-de-cas-22-ea97ddf2.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/contactez-nous%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-contactez-nous-22-3e5f6c18.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-etudes-de-cas-refonte-et-redesign-de-site-web-de-bi-newvision-22-3411e524.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/cdn-cgi/l/email-protection",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-cdn-cgi-l-email-protection-9937c0c7.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/blog%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-blog-22-afaaeb31.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/faq%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-faq-22-94ff1b36.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/politique-de-confidentialite%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-politique-de-confidentialite-22-094c831d.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/mentions-legales%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-mentions-legales-22-c9d3c0d5.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22https://www.instagram.com/grandecharteco%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22https-www.instagram.com-grandecharteco-22-f1539197.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22https://www.linkedin.com/company/grandecharteco/about%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22https-www.linkedin.com-company-grandecharteco-about-22-7872dd44.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22https://web.facebook.com/grandecharteco%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22https-web.facebook.com-grandecharteco-22-95eeef0e.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22https://x.com/grandecharteco%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22https-x.com-grandecharteco-22-ac9aec61.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "http://127.0.0.1:8080/%22/cdn-cgi/l/email-protection%22",
+      "from": "http://127.0.0.1:8080",
+      "depth": 1,
+      "status": 404,
+      "title": "Error response",
+      "lang": "en",
+      "metaDescription": "",
+      "h1": [
+        "Error response"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Error response"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots\\127.0.0.1-22-cdn-cgi-l-email-protection-22-76081461.png",
+      "consoleErrors": []
+    }
+  ],
+  "skipped": []
+}

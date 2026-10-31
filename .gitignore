@@ -1,0 +1,18 @@
+# Ignore NOTES.md (contains copyright notice about original site)
+NOTES.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/

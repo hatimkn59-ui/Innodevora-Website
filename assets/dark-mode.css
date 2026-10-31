@@ -1,0 +1,93 @@
+/* =========================================================================
+   Dark mode — site-wide theme layer
+   The whole design is built on two tokens declared in every page's :root:
+     --color-cream  → light surfaces (page bg, cards, pills)
+     --color-dark   → dark ink and dark surfaces
+   Dark mode flips both, so every block keeps its contrast relationship:
+   cream surfaces become warm near-black with light ink, and the elements
+   that were dark (buttons, dark sections) become cream highlights.
+
+   Enabled by <html data-theme-mode="dark"> (set by dark-mode.js before
+   first paint, persisted in localStorage["portfolio.theme"]).
+
+   Note: .project-page[data-theme] is the per-case-study theming built by
+   the original site (cream/dark project pages) — unrelated to this toggle;
+   the dark project pages are re-pinned below so they don't invert.
+   ========================================================================= */
+
+html[data-theme-mode="dark"] {
+  --color-cream: #141312;
+  --color-dark: #f5e7df;
+  color-scheme: dark;
+}
+
+/* Project pages whose design is dark stay dark (their background is
+   --project-background, normally var(--color-dark)). */
+html[data-theme-mode="dark"] .project-page[data-theme="dark"] {
+  --project-background: #141312;
+  --project-color: #f5e7df;
+}
+
+/* =========================================================================
+   Header theme switch — replaces the old EN/FR pill in the nav capsule
+   ========================================================================= */
+.site-header__theme-switch {
+  color: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  pointer-events: auto;
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  font-size: clamp(13px, 3.9vw, 14px);
+  line-height: 1;
+}
+
+.site-header__theme-switch:focus-visible {
+  outline: 2px solid;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.site-header__theme-icon {
+  display: block;
+  width: 1.05em;
+  height: 1.05em;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* light mode shows the moon (“switch to dark”), dark mode shows the sun */
+html:not([data-theme-mode="dark"]) .site-header__theme-icon--sun {
+  display: none;
+}
+
+html[data-theme-mode="dark"] .site-header__theme-icon--moon {
+  display: none;
+}
+
+.site-header__theme-switch:hover .site-header__theme-icon--moon {
+  transform: rotate(-24deg);
+}
+
+.site-header__theme-switch:hover .site-header__theme-icon--sun {
+  transform: rotate(24deg);
+}
+
+/* The toggle's only motion: honor reduced-motion like the rest of the site. */
+@media (prefers-reduced-motion: reduce) {
+  .site-header__theme-icon {
+    transition: none;
+  }
+
+  .site-header__theme-switch:hover .site-header__theme-icon--moon,
+  .site-header__theme-switch:hover .site-header__theme-icon--sun {
+    transform: none;
+  }
+}

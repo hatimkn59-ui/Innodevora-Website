@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Mail Merge Dashboard — Gmail campaigns</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9993;</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="app">
+    <!-- ============================ sidebar ============================ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">&#9993;</span>
+        <div>
+          <strong>Mail Merge</strong>
+          <small>Gmail campaign dashboard</small>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Main">
+        <button class="nav__item is-active" data-view="overview" aria-current="page">
+          <span class="nav__icon" aria-hidden="true">&#9632;</span> Overview
+        </button>
+        <button class="nav__item" data-view="accounts">
+          <span class="nav__icon" aria-hidden="true">&#9993;</span> Gmail accounts
+          <span class="nav__badge" id="navAccountsBadge" hidden></span>
+        </button>
+        <button class="nav__item" data-view="campaigns">
+          <span class="nav__icon" aria-hidden="true">&#9654;</span> Campaigns
+          <span class="nav__badge nav__badge--live" id="navSenderBadge" hidden>sending</span>
+        </button>
+        <button class="nav__item" data-view="history">
+          <span class="nav__icon" aria-hidden="true">&#8801;</span> Email history
+        </button>
+      </nav>
+
+      <div class="sidebar__footer">
+        <div class="sender-state" id="senderState">
+          <span class="dot dot--idle" id="senderDot"></span>
+          <div>
+            <strong id="senderLabel">Idle</strong>
+            <small id="senderDetail">No campaign running</small>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ============================= main ============================= -->
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        <h1 id="viewTitle">Overview</h1>
+        <div class="topbar__actions">
+          <button class="btn btn--ghost" id="refreshBtn" title="Refresh data">Refresh</button>
+          <button class="btn btn--primary" data-goto="campaigns" id="newCampaignTop">New campaign</button>
+        </div>
+      </header>
+
+      <main id="main" class="content" tabindex="-1">
+
+        <!-- ------------------------- overview ------------------------- -->
+        <section class="view is-active" id="view-overview" aria-labelledby="viewTitle">
+          <div class="cards" id="statCards">
+            <div class="card stat"><span class="stat__label">Gmail accounts</span>
+              <span class="stat__value" id="statAccounts">–</span>
+              <span class="stat__hint" id="statAccountsHint">–</span></div>
+            <div class="card stat"><span class="stat__label">Recipients imported</span>
+              <span class="stat__value" id="statRecipients">–</span>
+              <span class="stat__hint" id="statRecipientsHint">–</span></div>
+            <div class="card stat card--ok"><span class="stat__label">Sent</span>
+              <span class="stat__value" id="statSent">–</span>
+              <span class="stat__hint" id="statSentHint">–</span></div>
+            <div class="card stat"><span class="stat__label">Pending</span>
+              <span class="stat__value" id="statPending">–</span>
+              <span class="stat__hint">waiting in campaigns</span></div>
+            <div class="card stat card--warn"><span class="stat__label">Failed</span>
+              <span class="stat__value" id="statFailed">–</span>
+              <span class="stat__hint">needs review</span></div>
+            <div class="card stat"><span class="stat__label">Sent today</span>
+              <span class="stat__value" id="statSentToday">–</span>
+              <span class="stat__hint">across all accounts</span></div>
+          </div>
+
+          <div id="configBanner" class="banner banner--warn" hidden>
+            <strong>Google OAuth is not configured yet.</strong>
+            <p>Create a Google Cloud OAuth client (Desktop app), then copy
+              <code>.env.example</code> to <code>mailer/.env</code> and fill in
+              <code>GOOGLE_OAUTH_CLIENT_ID</code> / <code>GOOGLE_OAUTH_CLIENT_SECRET</code>.
+              Steps are in <code>mailer/README.md</code>.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <div class="card__head">
+                <h2>Campaigns</h2>
+                <button class="btn btn--ghost btn--sm" data-goto="campaigns">Manage</button>
+              </div>
+              <div id="overviewCampaigns" class="list"></div>
+            </div>
+            <div class="card">
+              <div class="card__head"><h2>Recent activity</h2></div>
+              <div id="overviewEvents" class="log"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------------------- accounts ------------------------- -->
+        <section class="view" id="view-accounts" hidden>
+          <div id="accountsConfigBanner" class="banner banner--info" hidden>
+            <strong>Step 1 — create a Google OAuth client (one time, ~5 min):</strong>
+            <p>1. <a href="https://console.cloud.google.com/apis/credentials" target="_blank" rel="noopener">console.cloud.google.com/apis/credentials</a>
+              → create a <b>Desktop app</b> OAuth client (enable the <b>Gmail API</b> first).<br>
+              2. Put the values in <code>mailer/.env</code>:
+              <code>GOOGLE_OAUTH_CLIENT_ID=…</code> and <code>GOOGLE_OAUTH_CLIENT_SECRET=…</code><br>
+              3. <b>Restart the dashboard</b> (<code>python app.py</code>), then connect here.<br>
+              4. On the consent screen add your Gmail under <b>Testing → Test users</b>.
+              Full guide: <code>mailer/README.md</code>.</p>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <div>
+                <h2>Connected Gmail accounts</h2>
+                <p class="muted">Connected with Google OAuth 2.0 (scope: send mail only). No Gmail
+                  passwords or app passwords are ever stored.</p>
+              </div>
+              <button class="btn btn--primary" id="connectBtn">Connect Gmail account</button>
+            </div>
+            <div id="accountsList" class="accounts"></div>
+          </div>
+          <div class="card">
+            <div class="card__head"><h2>Account activity (last 7 days)</h2></div>
+            <div id="accountActivity" class="log"></div>
+          </div>
+        </section>
+
+        <!-- -------------------------- campaigns ------------------------ -->
+        <section class="view" id="view-campaigns" hidden>
+          <!-- wizard -->
+          <div class="card wizard" id="wizard" hidden>
+            <div class="card__head">
+              <h2>New campaign</h2>
+              <button class="btn btn--ghost btn--sm" id="wizardClose">Close</button>
+            </div>
+            <ol class="steps" id="wizardSteps">
+              <li class="is-active" data-step="1">1 · Recipients</li>
+              <li data-step="2">2 · Message</li>
+              <li data-step="3">3 · Review &amp; send</li>
+            </ol>
+
+            <!-- step 1 -->
+            <div class="step is-active" data-step="1">
+              <div class="tabs" role="tablist">
+                <button class="tab is-active" data-source="csv" role="tab">CSV file</button>
+                <button class="tab" data-source="sheet" role="tab">Google Sheet</button>
+              </div>
+
+              <div class="tabpanel" data-source="csv">
+                <label class="field">
+                  <span>Recipient CSV (first row must be headers, e.g. <code>email,name,company,job title</code>)</span>
+                  <input type="file" id="csvFile" accept=".csv,.tsv,.txt,text/csv">
+                </label>
+              </div>
+
+              <div class="tabpanel" data-source="sheet" hidden>
+                <label class="field">
+                  <span>Send-from account (needs Sheets permission)</span>
+                  <select id="sheetAccount"></select>
+                </label>
+                <label class="field">
+                  <span>Spreadsheet ID (the long part in the Sheets URL)</span>
+                  <input type="text" id="sheetId" placeholder="1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms">
+                </label>
+                <div class="field-row">
+                  <label class="field"><span>Worksheet</span>
+                    <select id="sheetTab"><option value="">Load worksheets…</option></select>
+                  </label>
+                  <label class="field"><span>Or explicit range</span>
+                    <input type="text" id="sheetRange" placeholder="Sheet1!A:D">
+                  </label>
+                </div>
+                <div class="field-row">
+                  <button class="btn btn--ghost" id="sheetLoad">Load worksheets</button>
+                  <button class="btn btn--primary" id="sheetImport" disabled>Preview &amp; import</button>
+                </div>
+              </div>
+
+              <div id="importResult" class="import-result" hidden></div>
+
+              <div class="wizard__nav">
+                <span></span>
+                <button class="btn btn--primary" id="toStep2" disabled>Next: message</button>
+              </div>
+            </div>
+
+            <!-- step 2 -->
+            <div class="step" data-step="2" hidden>
+              <div class="grid-2">
+                <div>
+                  <label class="field"><span>Campaign name</span>
+                    <input type="text" id="cName" placeholder="Logistics companies — batch 1"></label>
+                  <label class="field"><span>Sender name (From)</span>
+                    <input type="text" id="cSender" placeholder="Max Mustermann"></label>
+                  <label class="field"><span>Reply-to (optional)</span>
+                    <input type="text" id="cReplyTo" placeholder="you@gmail.com"></label>
+                  <label class="field"><span>Subject</span>
+                    <input type="text" id="cSubject" placeholder="Job enquiry — {{job title}} at {{company}}"></label>
+                  <label class="field"><span>Body</span>
+                    <textarea id="cBody" rows="12" placeholder="Hello {{name}},&#10;&#10;I am a professional driver with 8 years of experience…"></textarea></label>
+                  <div class="field-row">
+                    <label class="field"><span>Format</span>
+                      <select id="cFormat"><option value="text">Plain text</option><option value="html">HTML</option></select></label>
+                    <label class="field"><span>Sender account</span>
+                      <select id="cAccount"></select></label>
+                  </div>
+                  <div class="vars" id="varChips"></div>
+                </div>
+                <div>
+                  <div class="card__head"><h3>Live preview</h3>
+                    <select id="previewPick" class="select-sm"></select></div>
+                  <div id="previewBox" class="preview"></div>
+                </div>
+              </div>
+              <div class="wizard__nav">
+                <button class="btn btn--ghost" id="backTo1">Back</button>
+                <button class="btn btn--primary" id="toStep3">Next: review</button>
+              </div>
+            </div>
+
+            <!-- step 3 -->
+            <div class="step" data-step="3" hidden>
+              <div id="reviewBox" class="review"></div>
+              <div class="field-row">
+                <label class="field"><span>Delay between sends (seconds)</span>
+                  <input type="number" id="cDelay" min="2" max="120" step="1"></label>
+                <label class="field"><span>Max sends per day (this campaign)</span>
+                  <input type="number" id="cMaxPerDay" min="1" max="2000" step="1"></label>
+              </div>
+              <label class="check">
+                <input type="checkbox" id="cSkipExisting" checked>
+                <span>Skip recipients already emailed in another campaign</span>
+              </label>
+              <div class="wizard__nav">
+                <button class="btn btn--ghost" id="backTo2">Back</button>
+                <button class="btn btn--primary" id="createCampaign">Create campaign</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__head">
+              <h2>Campaigns</h2>
+              <button class="btn btn--primary" id="newCampaignBtn">New campaign</button>
+            </div>
+            <div id="campaignList" class="campaigns"></div>
+          </div>
+        </section>
+
+        <!-- --------------------------- history ------------------------- -->
+        <section class="view" id="view-history" hidden>
+          <div class="card">
+            <div class="card__head filters">
+              <label class="field field--inline"><span>Status</span>
+                <select id="hStatus">
+                  <option value="">All</option><option value="pending">Pending</option>
+                  <option value="sending">Sending</option><option value="sent">Sent</option>
+                  <option value="failed">Failed</option><option value="skipped">Skipped</option>
+                </select></label>
+              <label class="field field--inline"><span>Campaign</span>
+                <select id="hCampaign"><option value="">All</option></select></label>
+              <label class="field field--inline"><span>Account</span>
+                <select id="hAccount"><option value="">All</option></select></label>
+              <label class="field field--inline"><span>Search</span>
+                <input type="search" id="hSearch" placeholder="recipient or campaign"></label>
+              <span class="spacer"></span>
+              <span class="muted" id="hCount"></span>
+            </div>
+            <div class="table-wrap">
+              <table class="table" id="historyTable">
+                <thead><tr>
+                  <th>Recipient</th><th>Campaign</th><th>Sender account</th>
+                  <th>Status</th><th>Sent at</th><th>Details</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="pager">
+              <button class="btn btn--ghost btn--sm" id="hPrev">Previous</button>
+              <span id="hPage"></span>
+              <button class="btn btn--ghost btn--sm" id="hNext">Next</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- campaign detail drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <div class="drawer__head">
+      <h2 id="drawerTitle">Campaign</h2>
+      <button class="icon-btn" id="drawerClose" aria-label="Close">&#10005;</button>
+    </div>
+    <div class="drawer__body" id="drawerBody"></div>
+  </aside>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

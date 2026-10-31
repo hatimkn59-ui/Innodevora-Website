@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+
+
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-innodevora.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta
+      name="description"
+      content="An interactive 3D experience designed and built by Innodevora: UI/UX design, a Three.js frontend and an AI-assisted asset pipeline."
+      data-i18n-attr="content:projects.ghibli.description"
+    />
+    <title data-i18n="projects.ghibli.title">
+      Memories of Ghibli — Interactive 3D Experience | Innodevora
+    </title>
+    <link rel="canonical" href="https://innodevora.com/projects/memories-of-ghibli/" />
+    <meta
+      property="og:title"
+      content="Memories of Ghibli — Interactive 3D Experience | Innodevora"
+      data-i18n-attr="content:projects.ghibli.title"
+    />
+    <meta
+      property="og:description"
+      content="An interactive 3D experience designed and built by Innodevora: UI/UX design, a Three.js frontend and an AI-assisted asset pipeline."
+      data-i18n-attr="content:projects.ghibli.description"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://innodevora.com/projects/memories-of-ghibli/" />
+    <meta property="og:image" content="https://innodevora.com/og/memories-of-ghibli.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Preview of Memories of Ghibli, an interactive 3D experience built by Innodevora"
+      data-i18n-attr="content:projects.ghibli.imageAlt"
+    />
+    <script type="module" crossorigin src="/assets/setupCrossPageTransitions-CltNm_Hf.js?v=3"></script>
+    <script type="module" crossorigin src="/assets/Observer-C5OqvjuH.js"></script>
+    <script type="module" crossorigin src="/assets/ScrollTrigger-Or8JzwiZ.js"></script>
+    <script type="module" crossorigin src="/assets/setupHeaderVisibility-D-FHk4jp.js?v=2"></script>
+    <script type="module" crossorigin src="/assets/projectPage-CrlVt1C7.js?v=2"></script>
+    <link rel="stylesheet" crossorigin href="/assets/setupCrossPageTransitions-D60GSfRM.css">
+    <link rel="stylesheet" crossorigin href="/assets/setupHeaderVisibility-fOJvfYOR.css">
+    <link rel="stylesheet" crossorigin href="/assets/projectPage-Bq70qomZ.css">
+      <link rel="stylesheet" href="/assets/dark-mode.css?v=2" />
+    <script src="/assets/dark-mode.js?v=1"></script>
+  </head>
+
+  <body class="project-page" data-project="memories-of-ghibli" data-theme="cream">
+    <!-------- TRANSITION -------->
+    <script>
+      if (sessionStorage.getItem("pageTransitionPending") === "true") {
+        const storedColor = sessionStorage.getItem("pageTransitionColor")
+        const color = storedColor === "dark" ? "dark" : "cream"
+
+        const transition = document.createElement("div")
+
+        transition.classList.add("page-transition", `page-transition--${color}`)
+
+        transition.setAttribute("aria-hidden", "true")
+        document.body.prepend(transition)
+      }
+    </script>
+
+    <!-------- HEADER -------->
+    <header class="site-header"></header>
+
+    <a
+      class="project-back"
+      href="/#projects"
+      tabindex="-1"
+      aria-label="Back to project list"
+      data-i18n-attr="aria-label:projects.ghibli.backLabel"
+    >
+      <svg
+        class="project-back__icon"
+        width="62"
+        height="15"
+        viewBox="0 0 62 15"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <path
+          class="project-back__shaft"
+          d="M60.3018 7.37256L2.30176 7.37256"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+
+        <path
+          class="project-back__arrowhead"
+          d="M7.26025 13.7279L1.07307 7.54074C0.975439 7.44311 0.975439 7.28482 1.07307 7.18718L7.26025 1"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+    </a>
+
+    <main class="project-page__main">
+      <section class="project-scroll">
+        <!-- Scroll length -->
+        <div class="project-scroll__pin-height">
+          <!-- Pin -->
+          <div class="project-scroll__container">
+            <!-- Content -->
+            <div class="project-scroll__track">
+              <!-- Section Intro -->
+              <section class="project-panel project-panel--intro">
+                <div class="project-intro">
+                  <video
+                    src="/projects/memories-of-ghibli/media/ghibli-intro1.mp4"
+                    class="project-intro__visual project-intro__visual--primary"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    aria-hidden="true"
+                  ></video>
+
+                  <video
+                    src="/projects/memories-of-ghibli/media/ghibli-intro2.mp4"
+                    class="project-intro__visual project-intro__visual--secondary"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    aria-hidden="true"
+                  ></video>
+
+                  <h1 class="project-intro__title">
+                    Memories<br />
+                    of Ghibli
+                  </h1>
+
+                  <p class="visually-hidden" data-i18n="projects.ghibli.introDescription">
+                    Experience preview: a loading screen featuring a poem that invites visitors to
+                    begin the journey, followed by the main 3D scene with a picnic table beneath a
+                    tree at the edge of a cliff.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Section Context -->
+              <section class="project-panel project-panel--context">
+                <div class="project-context project-context--with-links">
+                  <ul class="project-context__categories">
+                    <li class="project-context__category">Creative Development</li>
+                    <li class="project-context__category">Three.js</li>
+                    <li class="project-context__category">Creative Lead</li>
+                  </ul>
+
+                  <div class="project-context__texts">
+                    <p class="project-context__text" data-i18n="projects.ghibli.context1">
+                      An interactive 3D journey through Miyazaki-inspired worlds — imagined, designed and developed end to end by the Innodevora team.
+                    </p>
+
+                    <p class="project-context__text" data-i18n="projects.ghibli.context2">
+                      We owned every layer: UI/UX and interaction design, a Three.js frontend with 32 interactive objects, a backend serving 50+ Blender-optimized assets, and AI tools woven through the production pipeline.
+                    </p>
+
+                    <div class="project-context__links">
+                      <a
+                        class="project-context__link project-context__link--experience"
+                        href="https://memories-of-ghibli.netlify.app/"
+                        tabindex="-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span data-i18n="projects.ghibli.viewExperience">View the experience</span>
+                      </a>
+
+                      <a
+                        class="project-context__link project-context__link--credits"
+                        href="/projects/memories-of-ghibli/credits/"
+                        tabindex="-1"
+                      >
+                        <span data-i18n="projects.ghibli.credits">Credits & licenses</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Section Ellipse -->
+              <section class="project-panel project-panel--ellipse">
+                <div class="project-ellipse">
+                  <img
+                    src="/projects/memories-of-ghibli/media/ghibli-ellipse1.webp"
+                    alt="View of a distant cliff populated by characters integrated into the 3D scene."
+                    data-i18n-attr="alt:projects.ghibli.ellipseAlt"
+                    class="project-ellipse__visual"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </section>
+
+              <!-- Section Gallery -->
+              <!-- Section Gallery -->
+              <section class="project-panel project-panel--gallery">
+                <div class="project-gallery">
+                  <div class="project-gallery__slides">
+                    <!-- Initial spacers -->
+                    <div
+                      class="project-gallery__slide project-gallery__slide--spacer"
+                      aria-hidden="true"
+                    >
+                      <div class="project-gallery__media"></div>
+                    </div>
+
+                    <div
+                      class="project-gallery__slide project-gallery__slide--spacer"
+                      aria-hidden="true"
+                    >
+                      <div class="project-gallery__media"></div>
+                    </div>
+
+                    <!-- Gallery media 1 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery1.webp"
+                        alt="Close-up view of a castle in the distance, resting on the water."
+                        data-i18n-attr="alt:projects.ghibli.gallery1Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 2 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery2.webp"
+                        alt="Close-up view of a forest scene from the 3D experience."
+                        data-i18n-attr="alt:projects.ghibli.gallery2Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 3 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery3.webp"
+                        alt="Calcifer at the center of a campfire in the 3D scene."
+                        data-i18n-attr="alt:projects.ghibli.gallery3Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 4 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery4.webp"
+                        alt="Yubaba and Warawara in the foreground, with the cliff in the distance."
+                        data-i18n-attr="alt:projects.ghibli.gallery4Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 5 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery5.webp"
+                        alt="Haku’s dragon tail crossing the sky."
+                        data-i18n-attr="alt:projects.ghibli.gallery5Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 6 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery6.webp"
+                        alt="Quiz interface with a reference image and multiple answer choices."
+                        data-i18n-attr="alt:projects.ghibli.gallery6Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 7 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery7.webp"
+                        alt="Trivia panel displayed after a correct quiz answer."
+                        data-i18n-attr="alt:projects.ghibli.gallery7Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Gallery media 8 -->
+                    <div class="project-gallery__slide">
+                      <img
+                        class="project-gallery__media"
+                        src="/projects/memories-of-ghibli/media/ghibli-gallery8.webp"
+                        alt="Close-up view of the picnic table in the grass, surrounded by references to Miyazaki films."
+                        data-i18n-attr="alt:projects.ghibli.gallery8Alt"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+
+                    <!-- Final spacers -->
+                    <div
+                      class="project-gallery__slide project-gallery__slide--spacer"
+                      aria-hidden="true"
+                    >
+                      <div class="project-gallery__media"></div>
+                    </div>
+
+                    <div
+                      class="project-gallery__slide project-gallery__slide--spacer"
+                      aria-hidden="true"
+                    >
+                      <div class="project-gallery__media"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Section Next -->
+              <section class="project-panel project-panel--next">
+                <div class="project-next">
+                  <!-- Links words -->
+                  <a
+                    href="/projects/mirage/"
+                    class="project-next__link"
+                    tabindex="-1"
+                    aria-label="Discover Mirage"
+                    data-i18n-attr="aria-label:projects.ghibli.nextLabel"
+                  >
+                    <h2 class="project-next__title">
+                      <!-- Left word -->
+                      <span
+                        class="project-next__word project-next__word--left"
+                        data-i18n="projects.ghibli.nextLeft"
+                        >Up</span
+                      >
+
+                      <!-- Right word group -->
+                      <span class="project-next__right">
+                        <span
+                          class="project-next__word project-next__word--right"
+                          data-i18n="projects.ghibli.nextRight"
+                          >next</span
+                        >
+
+                        <span class="project-next__project-name">mirage</span>
+                      </span>
+                    </h2>
+
+                    <!-- Medias -->
+                    <div class="project-next__medias" aria-hidden="true">
+                      <img
+                        class="project-next__media"
+                        src="/projects/mirage/previews/mirage-01-square.webp"
+                        alt=""
+                        loading="lazy"
+                      />
+
+                      <img
+                        class="project-next__media"
+                        src="/projects/mirage/previews/mirage-07-square.webp"
+                        alt=""
+                        loading="lazy"
+                      />
+
+                      <img
+                        class="project-next__media project-next__media--logo"
+                        src="/projects/mirage/logos/mirage-logo.png"
+                        alt=""
+                        loading="lazy"
+                      />
+
+                      <img
+                        class="project-next__media"
+                        src="/projects/mirage/previews/mirage-02-square.webp"
+                        alt=""
+                        loading="lazy"
+                      />
+
+                      <img
+                        class="project-next__media"
+                        src="/projects/mirage/previews/mirage-06-portrait.webp"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

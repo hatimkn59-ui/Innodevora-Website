@@ -1,0 +1,2145 @@
+{
+  "label": "clone",
+  "url": "http://127.0.0.1:8080",
+  "capturedAt": "2026-10-16T13:56:33.872Z",
+  "console": {
+    "errors": [],
+    "warnings": [],
+    "pageErrors": []
+  },
+  "navigation": [
+    {
+      "viewport": 1440,
+      "recovered": false,
+      "url": "http://127.0.0.1:8080",
+      "readyState": "interactive"
+    },
+    {
+      "viewport": 768,
+      "recovered": false,
+      "url": "http://127.0.0.1:8080",
+      "readyState": "interactive"
+    },
+    {
+      "viewport": 390,
+      "recovered": false,
+      "url": "http://127.0.0.1:8080",
+      "readyState": "interactive"
+    }
+  ],
+  "captures": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "screenshots\\clone-1440.png",
+      "signals": {
+        "href": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "lang": "\"fr\"",
+        "bodyTextChars": 4172,
+        "scrollHeight": 10294,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "h1": [
+          "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+          },
+          {
+            "tag": "h2",
+            "text": "DerniÃ¨re Ã©tude de cas avec BI NEWVISION"
+          },
+          {
+            "tag": "h2",
+            "text": "Esprits Digitaux. Une agence pensÃ©e pour lâ€™impact."
+          },
+          {
+            "tag": "h2",
+            "text": "AxÃ©s sur le B2B nous livrons stratÃ©gie, design et dÃ©veloppement pensÃ©s pour la croissance."
+          },
+          {
+            "tag": "h3",
+            "text": "DÃ©couvrez nos"
+          },
+          {
+            "tag": "h2",
+            "text": "DERNIÃˆRES Ã‰TUDES DE CAS"
+          },
+          {
+            "tag": "h2",
+            "text": "Le Pouvoir de l'expertise digitale"
+          },
+          {
+            "tag": "h2",
+            "text": "Pourquoi collaborer avec"
+          },
+          {
+            "tag": "h3",
+            "text": "GRANDE CHARTE DIGITAL?"
+          },
+          {
+            "tag": "h2",
+            "text": "Expertise Technologique"
+          },
+          {
+            "tag": "h2",
+            "text": "Collaboration & Alignement"
+          },
+          {
+            "tag": "h2",
+            "text": "Approche CentrÃ©e Utilisateur"
+          },
+          {
+            "tag": "h2",
+            "text": "AVEZ-VOUS UN PROJET ?"
+          },
+          {
+            "tag": "h3",
+            "text": "PARLONS-EN !"
+          },
+          {
+            "tag": "h2",
+            "text": "AccÃ¨s rapide"
+          },
+          {
+            "tag": "h2",
+            "text": "lien utiles"
+          },
+          {
+            "tag": "h2",
+            "text": "Social Media"
+          }
+        ],
+        "metaDescription": "",
+        "counts": {
+          "links": 31,
+          "images": 45,
+          "video": 1,
+          "canvas": 6,
+          "sections": 4,
+          "forms": 0,
+          "buttons": 6,
+          "inputs": 0,
+          "interactive": 40,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [],
+        "stylesheets": [],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "\"nav-menu-warp",
+            "text": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer",
+            "rect": {
+              "x": 8,
+              "y": 198,
+              "width": 1409,
+              "height": 1202
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "main",
+            "id": "",
+            "className": "",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 1409,
+              "height": 8237
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "\"glass-scroll-intro\"",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 1409,
+              "height": 572
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "",
+            "className": "",
+            "text": "La vision dâ€™une agence indÃ©pendante alliÃ©e Ã la prÃ©cision dâ€™un studio dâ€™ingÃ©nierie. AccÃ¨s rapide Accueil Ã€ propos Services Ã‰tudes de cas Contact lien utiles Blog FAQ Politique de confidentialitÃ© Mentions lÃ©gales Social Media ",
+            "rect": {
+              "x": 8,
+              "y": 9637,
+              "width": 1409,
+              "height": 640
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "header": null,
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "main": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "footer": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "Menu Fermer",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Get Connected",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Learn More",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "01 Design UI/UX 01 Design UI/UX",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "02 DÃ©veloppement 02 DÃ©veloppement",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "03 Marketing Digital 03 Marketing Digita",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "04 Production de contenu 04 Production d",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "START A PROJECT",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 0
+        },
+        "fonts": [],
+        "fontFaces": [],
+        "resources": {
+          "images": [
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "http://127.0.0.1:8080/%22assets/en.svg",
+            "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "http://127.0.0.1:8080/%22assets/star.svg",
+            "http://127.0.0.1:8080/favicon.ico"
+          ],
+          "fonts": [],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/en.svg",
+            "srcset": "\"assets/en.svg",
+            "alt": "\"en\"",
+            "width": 44,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "srcset": "",
+            "alt": "\"Agence",
+            "width": 71,
+            "height": 18
+          },
+          {
+            "src": "",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "alt": "\"Consultant",
+            "width": 92,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "srcset": "\"assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "alt": "\"PrÃ©sentation",
+            "width": 118,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "srcset": "",
+            "alt": "\"Soucoupe",
+            "width": 86,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "srcset": "\"assets/galaxy.svg",
+            "alt": "\"Galaxy\"",
+            "width": 75,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/star.svg",
+            "srcset": "\"assets/star.svg",
+            "alt": "\"Star\"",
+            "width": 55,
+            "height": 18
+          }
+        ],
+        "canvases": [
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          }
+        ]
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "screenshot": "screenshots\\clone-768.png",
+      "signals": {
+        "href": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "lang": "\"fr\"",
+        "bodyTextChars": 4172,
+        "scrollHeight": 10916,
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "h1": [
+          "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+          },
+          {
+            "tag": "h2",
+            "text": "DerniÃ¨re Ã©tude de cas avec BI NEWVISION"
+          },
+          {
+            "tag": "h2",
+            "text": "Esprits Digitaux. Une agence pensÃ©e pour lâ€™impact."
+          },
+          {
+            "tag": "h2",
+            "text": "AxÃ©s sur le B2B nous livrons stratÃ©gie, design et dÃ©veloppement pensÃ©s pour la croissance."
+          },
+          {
+            "tag": "h3",
+            "text": "DÃ©couvrez nos"
+          },
+          {
+            "tag": "h2",
+            "text": "DERNIÃˆRES Ã‰TUDES DE CAS"
+          },
+          {
+            "tag": "h2",
+            "text": "Le Pouvoir de l'expertise digitale"
+          },
+          {
+            "tag": "h2",
+            "text": "Pourquoi collaborer avec"
+          },
+          {
+            "tag": "h3",
+            "text": "GRANDE CHARTE DIGITAL?"
+          },
+          {
+            "tag": "h2",
+            "text": "Expertise Technologique"
+          },
+          {
+            "tag": "h2",
+            "text": "Collaboration & Alignement"
+          },
+          {
+            "tag": "h2",
+            "text": "Approche CentrÃ©e Utilisateur"
+          },
+          {
+            "tag": "h2",
+            "text": "AVEZ-VOUS UN PROJET ?"
+          },
+          {
+            "tag": "h3",
+            "text": "PARLONS-EN !"
+          },
+          {
+            "tag": "h2",
+            "text": "AccÃ¨s rapide"
+          },
+          {
+            "tag": "h2",
+            "text": "lien utiles"
+          },
+          {
+            "tag": "h2",
+            "text": "Social Media"
+          }
+        ],
+        "metaDescription": "",
+        "counts": {
+          "links": 31,
+          "images": 45,
+          "video": 1,
+          "canvas": 6,
+          "sections": 4,
+          "forms": 0,
+          "buttons": 6,
+          "inputs": 0,
+          "interactive": 40,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [],
+        "stylesheets": [],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "\"nav-menu-warp",
+            "text": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer",
+            "rect": {
+              "x": 8,
+              "y": 198,
+              "width": 737,
+              "height": 1202
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "main",
+            "id": "",
+            "className": "",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 737,
+              "height": 8860
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "\"glass-scroll-intro\"",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 737,
+              "height": 572
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "",
+            "className": "",
+            "text": "La vision dâ€™une agence indÃ©pendante alliÃ©e Ã la prÃ©cision dâ€™un studio dâ€™ingÃ©nierie. AccÃ¨s rapide Accueil Ã€ propos Services Ã‰tudes de cas Contact lien utiles Blog FAQ Politique de confidentialitÃ© Mentions lÃ©gales Social Media ",
+            "rect": {
+              "x": 8,
+              "y": 10260,
+              "width": 737,
+              "height": 640
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "header": null,
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "main": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "footer": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "Menu Fermer",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Get Connected",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Learn More",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "01 Design UI/UX 01 Design UI/UX",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "02 DÃ©veloppement 02 DÃ©veloppement",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "03 Marketing Digital 03 Marketing Digita",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "04 Production de contenu 04 Production d",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "START A PROJECT",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 0
+        },
+        "fonts": [],
+        "fontFaces": [],
+        "resources": {
+          "images": [
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "http://127.0.0.1:8080/%22assets/en.svg",
+            "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "http://127.0.0.1:8080/%22assets/star.svg"
+          ],
+          "fonts": [],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/en.svg",
+            "srcset": "\"assets/en.svg",
+            "alt": "\"en\"",
+            "width": 44,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "srcset": "",
+            "alt": "\"Agence",
+            "width": 71,
+            "height": 18
+          },
+          {
+            "src": "",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "alt": "\"Consultant",
+            "width": 92,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "srcset": "\"assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "alt": "\"PrÃ©sentation",
+            "width": 118,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "srcset": "",
+            "alt": "\"Soucoupe",
+            "width": 86,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "srcset": "\"assets/galaxy.svg",
+            "alt": "\"Galaxy\"",
+            "width": 75,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/star.svg",
+            "srcset": "\"assets/star.svg",
+            "alt": "\"Star\"",
+            "width": 55,
+            "height": 18
+          }
+        ],
+        "canvases": [
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          }
+        ]
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "screenshot": "screenshots\\clone-390.png",
+      "signals": {
+        "href": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "lang": "\"fr\"",
+        "bodyTextChars": 4172,
+        "scrollHeight": 12429,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "h1": [
+          "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc"
+          },
+          {
+            "tag": "h2",
+            "text": "DerniÃ¨re Ã©tude de cas avec BI NEWVISION"
+          },
+          {
+            "tag": "h2",
+            "text": "Esprits Digitaux. Une agence pensÃ©e pour lâ€™impact."
+          },
+          {
+            "tag": "h2",
+            "text": "AxÃ©s sur le B2B nous livrons stratÃ©gie, design et dÃ©veloppement pensÃ©s pour la croissance."
+          },
+          {
+            "tag": "h3",
+            "text": "DÃ©couvrez nos"
+          },
+          {
+            "tag": "h2",
+            "text": "DERNIÃˆRES Ã‰TUDES DE CAS"
+          },
+          {
+            "tag": "h2",
+            "text": "Le Pouvoir de l'expertise digitale"
+          },
+          {
+            "tag": "h2",
+            "text": "Pourquoi collaborer avec"
+          },
+          {
+            "tag": "h3",
+            "text": "GRANDE CHARTE DIGITAL?"
+          },
+          {
+            "tag": "h2",
+            "text": "Expertise Technologique"
+          },
+          {
+            "tag": "h2",
+            "text": "Collaboration & Alignement"
+          },
+          {
+            "tag": "h2",
+            "text": "Approche CentrÃ©e Utilisateur"
+          },
+          {
+            "tag": "h2",
+            "text": "AVEZ-VOUS UN PROJET ?"
+          },
+          {
+            "tag": "h3",
+            "text": "PARLONS-EN !"
+          },
+          {
+            "tag": "h2",
+            "text": "AccÃ¨s rapide"
+          },
+          {
+            "tag": "h2",
+            "text": "lien utiles"
+          },
+          {
+            "tag": "h2",
+            "text": "Social Media"
+          }
+        ],
+        "metaDescription": "",
+        "counts": {
+          "links": 31,
+          "images": 45,
+          "video": 1,
+          "canvas": 6,
+          "sections": 4,
+          "forms": 0,
+          "buttons": 6,
+          "inputs": 0,
+          "interactive": 40,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [],
+        "stylesheets": [],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "\"nav-menu-warp",
+            "text": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer",
+            "rect": {
+              "x": 8,
+              "y": 198,
+              "width": 359,
+              "height": 1202
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "main",
+            "id": "",
+            "className": "",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 359,
+              "height": 10354
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "\"glass-scroll-intro\"",
+            "text": "Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. ",
+            "rect": {
+              "x": 8,
+              "y": 1400,
+              "width": 359,
+              "height": 608
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "",
+            "className": "",
+            "text": "La vision dâ€™une agence indÃ©pendante alliÃ©e Ã la prÃ©cision dâ€™un studio dâ€™ingÃ©nierie. AccÃ¨s rapide Accueil Ã€ propos Services Ã‰tudes de cas Contact lien utiles Blog FAQ Politique de confidentialitÃ© Mentions lÃ©gales Social Media ",
+            "rect": {
+              "x": 8,
+              "y": 11754,
+              "width": 359,
+              "height": 658
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Times New Roman\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "header": null,
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "main": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "footer": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "fontFamily": "\"Times New Roman\"",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "Menu Fermer",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Get Connected",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Learn More",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            },
+            {
+              "text": "01 Design UI/UX 01 Design UI/UX",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "02 DÃ©veloppement 02 DÃ©veloppement",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "03 Marketing Digital 03 Marketing Digita",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "04 Production de contenu 04 Production d",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "fontFamily": "Arial",
+              "backgroundImage": ""
+            },
+            {
+              "text": "START A PROJECT",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "fontFamily": "\"Times New Roman\"",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 0
+        },
+        "fonts": [],
+        "fontFaces": [],
+        "resources": {
+          "images": [
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "http://127.0.0.1:8080/%22assets/en.svg",
+            "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "http://127.0.0.1:8080/%22assets/star.svg"
+          ],
+          "fonts": [],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-38b50361bf.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/en.svg",
+            "srcset": "\"assets/en.svg",
+            "alt": "\"en\"",
+            "width": 44,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22/images/planetary-ring/planetary-first-frame-desktop.webp%22",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/image-preview-a11eb504f7.png%22",
+            "srcset": "",
+            "alt": "\"Agence",
+            "width": 71,
+            "height": 18
+          },
+          {
+            "src": "",
+            "srcset": "",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/consultant-agence-digitale-bureau-casablanca-e91f95af01.jpg",
+            "alt": "\"Consultant",
+            "width": 92,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "srcset": "\"assets/images/cdn.sanity.io/bi-newvision-logo-espace-numerique-ae81e65084.png",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"Logo",
+            "width": 56,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-ynexis-05bc951c7b.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-nikon-b1e00d0522.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-yamed-4c342ef982.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-groupe-innovia-4855997568.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-immolys-ma-f7c70757be.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-delano-d47e430c07.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-futureiq-0e00fd5fb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-bi-newvision-d879aaf98a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-moorgen-smart-home-e194f1cf67.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-sopromar-7209c13e85.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-uts-holding-of-africa-84b6810bea.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-share-academy-e69a5ba649.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-xpershore-f65c7cb35a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-trefle-conseil-904077a827.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-les-perles-de-l-agdal-5223600bb5.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "srcset": "\"assets/images/cdn.sanity.io/presentation-construction-produits-digitaux-d3fde8d59f.jpg",
+            "alt": "\"PrÃ©sentation",
+            "width": 118,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-services-collaboration-alignement-icon-8073d62e61.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/services-agence-digitale-maroc-command-line-893e17775a.svg",
+            "alt": "\"\"",
+            "width": 29,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/inspected-image-26dc22adfc.png%22",
+            "srcset": "",
+            "alt": "\"Soucoupe",
+            "width": 86,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "srcset": "\"assets/images/cdn.sanity.io/logo-grande-charte-agence-digitale-139a78f8de.svg",
+            "alt": "\"Grande",
+            "width": 70,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/galaxy.svg",
+            "srcset": "\"assets/galaxy.svg",
+            "alt": "\"Galaxy\"",
+            "width": 75,
+            "height": 18
+          },
+          {
+            "src": "http://127.0.0.1:8080/%22assets/star.svg",
+            "srcset": "\"assets/star.svg",
+            "alt": "\"Star\"",
+            "width": 55,
+            "height": 18
+          }
+        ],
+        "canvases": [
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          },
+          {
+            "width": 300,
+            "height": 150,
+            "cssWidth": 300,
+            "cssHeight": 150
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2161 @@
+{
+  "label": "clone",
+  "url": "http://127.0.0.1:8080",
+  "capturedAt": "2026-10-16T13:59:32.901Z",
+  "initial": {
+    "url": "http://127.0.0.1:8080/",
+    "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+    "activeElement": "body",
+    "scrollY": 0,
+    "bodyTextChars": 4172,
+    "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+    "counts": {
+      "dialogs": 0,
+      "popovers": 0,
+      "canvases": 6,
+      "videos": 1,
+      "buttons": 6,
+      "forms": 0
+    },
+    "htmlHash": "-975364330",
+    "htmlLength": 170053
+  },
+  "discovered": {
+    "interactive": [
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 162,
+          "width": 1409,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/en%22",
+        "text": "",
+        "ariaLabel": "\"English\"",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 180,
+          "width": 44,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "Accueil",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 198,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Ã€ propos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 370,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/services%22",
+        "text": "Services",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 542,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "text": "Ã‰tudes de cas",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 714,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Contact",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 886,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "Menu Fermer",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 1058,
+          "width": 620,
+          "height": 342
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > iframe:nth-of-type(1)",
+        "tag": "iframe",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 8,
+          "y": 1400,
+          "width": 304,
+          "height": 154
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Get Connected",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 2466,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Learn More",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 88,
+          "y": 2638,
+          "width": 76,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "tag": "div",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 8,
+          "y": 3416,
+          "width": 1409,
+          "height": 172
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 3842,
+          "width": 360,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > video:nth-of-type(1)",
+        "tag": "video",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 68,
+          "y": 3706,
+          "width": 300,
+          "height": 150
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+        "text": "Voir plus",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 4063,
+          "width": 1409,
+          "height": 35
+        }
+      },
+      {
+        "selector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "01 Design UI/UX 01 Design UI/UX",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 5748,
+          "width": 316,
+          "height": 395
+        }
+      },
+      {
+        "selector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(2)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "02 DÃ©veloppement 02 DÃ©veloppement",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 328,
+          "y": 5748,
+          "width": 316,
+          "height": 395
+        }
+      },
+      {
+        "selector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(3)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "03 Marketing Digital 03 Marketing Digital",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 648,
+          "y": 5748,
+          "width": 316,
+          "height": 395
+        }
+      },
+      {
+        "selector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(4)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "04 Production de contenu 04 Production de contenu",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 968,
+          "y": 5748,
+          "width": 316,
+          "height": 395
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "text": "Nos travaux.",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 6194,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Notre Ã©quipe.",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 6416,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "\"Play",
+        "safeClick": true,
+        "rect": {
+          "x": 130,
+          "y": 8192,
+          "width": 316,
+          "height": 159
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/cdn-cgi/l/email-protection#167f78707956716477787273757e77646273387579%22",
+        "text": "info @ grandecharte.co",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 9447,
+          "width": 1409,
+          "height": 189
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 9637,
+          "width": 70,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "Accueil",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9756,
+          "width": 50,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Ã€ propos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9774,
+          "width": 67,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/services%22",
+        "text": "Services",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9792,
+          "width": 54,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "text": "Ã‰tudes de cas",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9810,
+          "width": 105,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Contact",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9828,
+          "width": 50,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/blog%22",
+        "text": "Blog",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9913,
+          "width": 31,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/faq%22",
+        "text": "FAQ",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9931,
+          "width": 31,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/politique-de-confidentialite%22",
+        "text": "Politique de confidentialitÃ©",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9949,
+          "width": 190,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/mentions-legales%22",
+        "text": "Mentions lÃ©gales",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 9967,
+          "width": 125,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22https://www.instagram.com/grandecharteco%22",
+        "text": "Instagram",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 10052,
+          "width": 64,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22https://www.linkedin.com/company/grandecharteco/about%22",
+        "text": "Linkedin",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 10070,
+          "width": 58,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22https://web.facebook.com/grandecharteco%22",
+        "text": "Facebook",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 10088,
+          "width": 62,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22https://x.com/grandecharteco%22",
+        "text": "X.com",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 48,
+          "y": 10106,
+          "width": 43,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "START A PROJECT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 10140,
+          "width": 1409,
+          "height": 35
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/cdn-cgi/l/email-protection%22",
+        "text": "[emailÂ protected]",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 10192,
+          "width": 121,
+          "height": 17
+        }
+      }
+    ],
+    "canvases": [
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+        "rect": {
+          "x": 8,
+          "y": 4989,
+          "width": 300,
+          "height": 150
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+        "rect": {
+          "x": 8,
+          "y": 5211,
+          "width": 300,
+          "height": 150
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+        "rect": {
+          "x": 8,
+          "y": 5544,
+          "width": 300,
+          "height": 150
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+        "rect": {
+          "x": 8,
+          "y": 8493,
+          "width": 300,
+          "height": 150
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "scroll",
+      "target": "middle",
+      "ratio": 0.5,
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 4697,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\01-scroll-middle-b04a45f075.png"
+    },
+    {
+      "type": "scroll",
+      "target": "bottom",
+      "ratio": 1,
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 9394,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\02-scroll-bottom-7297e0cbea.png"
+    },
+    {
+      "type": "hover",
+      "target": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 162,
+          "width": 1409,
+          "height": 18
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\03-hover-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-t-071d92e807.png"
+    },
+    {
+      "type": "hover",
+      "target": "\"English\"",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/en%22",
+        "text": "",
+        "ariaLabel": "\"English\"",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 180,
+          "width": 44,
+          "height": 17
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\04-hover--English-f770d7b7ae.png"
+    },
+    {
+      "type": "hover",
+      "target": "Accueil",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "Accueil",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 198,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\05-hover-Accueil-fbd07ed3df.png"
+    },
+    {
+      "type": "hover",
+      "target": "Ã€ propos",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Ã€ propos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 370,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 6,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\06-hover--propos-0d61844d8e.png"
+    },
+    {
+      "type": "hover",
+      "target": "Services",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/services%22",
+        "text": "Services",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 542,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 178,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\07-hover-Services-db9a1102a2.png"
+    },
+    {
+      "type": "hover",
+      "target": "Ã‰tudes de cas",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "text": "Ã‰tudes de cas",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 714,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 350,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\08-hover--tudes-de-cas-6a70b7e44e.png"
+    },
+    {
+      "type": "hover",
+      "target": "Contact",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Contact",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 886,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 522,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\09-hover-Contact-77b61454ba.png"
+    },
+    {
+      "type": "hover",
+      "target": "Menu Fermer",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "Menu Fermer",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 1058,
+          "width": 620,
+          "height": 342
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 779,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\10-hover-Menu-Fermer-a9bb4641a4.png"
+    },
+    {
+      "type": "click",
+      "target": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 162,
+          "width": 1409,
+          "height": 18
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\11-click-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-t-16ff9aaf5b.png"
+    },
+    {
+      "type": "click",
+      "target": "\"English\"",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/en%22",
+        "text": "",
+        "ariaLabel": "\"English\"",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 180,
+          "width": 44,
+          "height": 17
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/en%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\12-click--English-d34140c39f.png"
+    },
+    {
+      "type": "click",
+      "target": "Accueil",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/%22",
+        "text": "Accueil",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 198,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\13-click-Accueil-adeb8d206c.png"
+    },
+    {
+      "type": "click",
+      "target": "Ã€ propos",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Ã€ propos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 370,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/a-propos%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\14-click--propos-a2fecf2d51.png"
+    },
+    {
+      "type": "click",
+      "target": "Services",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/services%22",
+        "text": "Services",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 542,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/services%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\15-click-Services-13c273adf6.png"
+    },
+    {
+      "type": "click",
+      "target": "Ã‰tudes de cas",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "text": "Ã‰tudes de cas",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 714,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/etudes-de-cas%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\16-click--tudes-de-cas-711efae0ce.png"
+    },
+    {
+      "type": "click",
+      "target": "Contact",
+      "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Contact",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 886,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\17-click-Contact-3e6d8ef533.png"
+    },
+    {
+      "type": "click",
+      "target": "Menu Fermer",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "",
+        "role": "",
+        "href": "",
+        "text": "Menu Fermer",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 1058,
+          "width": 620,
+          "height": 342
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "button",
+        "scrollY": 779,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\18-click-Menu-Fermer-84502192d7.png"
+    },
+    {
+      "type": "click",
+      "target": "Get Connected",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/contactez-nous%22",
+        "text": "Get Connected",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 2466,
+          "width": 1409,
+          "height": 171
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\19-click-Get-Connected-fedd428ce8.png"
+    },
+    {
+      "type": "click",
+      "target": "Learn More",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/a-propos%22",
+        "text": "Learn More",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 88,
+          "y": 2638,
+          "width": 76,
+          "height": 17
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/en%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\20-click-Learn-More-629b23a3ac.png"
+    },
+    {
+      "type": "click",
+      "target": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 3842,
+          "width": 360,
+          "height": 17
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+        "title": "Error response",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 119,
+        "bodyTextStart": "Error response Error code: 404 Message: File not found. Error code explanation: 404 - Nothing matches the given URI.",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1751506368",
+        "htmlLength": 314
+      },
+      "changed": true,
+      "screenshot": "screenshots\\21-click-div-nth-of-type-1-div-nth-of-type-3-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-t-c2a94bee3e.png"
+    },
+    {
+      "type": "click",
+      "target": "Voir plus",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:8080/%22/etudes-de-cas/refonte-et-redesign-de-site-web-de-bi-newvision%22",
+        "text": "Voir plus",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 8,
+          "y": 4063,
+          "width": 1409,
+          "height": 35
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 3562,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": true,
+      "screenshot": "screenshots\\22-click-Voir-plus-7a43d66998.png"
+    },
+    {
+      "type": "canvas-drag",
+      "target": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "rect": {
+        "x": 8,
+        "y": 4989,
+        "width": 300,
+        "height": 150
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\23-canvas-drag-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nt-20ac9d1b42.png"
+    },
+    {
+      "type": "canvas-drag",
+      "target": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "rect": {
+        "x": 8,
+        "y": 5211,
+        "width": 300,
+        "height": 150
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\24-canvas-drag-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nt-8797ca08a4.png"
+    },
+    {
+      "type": "canvas-drag",
+      "target": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "rect": {
+        "x": 8,
+        "y": 5544,
+        "width": 300,
+        "height": 150
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\25-canvas-drag-div-nth-of-type-2-div-nth-of-type-1-div-nth-of-type-1-div-nth-of-type-1-div-nt-e522c41956.png"
+    },
+    {
+      "type": "canvas-drag",
+      "target": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > canvas:nth-of-type(1)",
+      "rect": {
+        "x": 8,
+        "y": 8493,
+        "width": 300,
+        "height": 150
+      },
+      "before": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "after": {
+        "url": "http://127.0.0.1:8080/",
+        "title": "Agence UX | Web | Mobile & Ecommerce âœ¦ Casablanca, Maroc",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4172,
+        "bodyTextStart": "Accueil Ã€ propos Services Ã‰tudes de cas Contact Menu Fermer Bonjour. Hola. â´°âµ£âµ“âµ Hola. Hello. Ciao. Ù…Ø±Ø­Ø¨Ø§ ã‚„ã‚ HallÃ¥. 20 % PrÃ©paration de l'expÃ©rience EST. 2018 8+ ANS Ã€ FAÃ‡ONNER LE NUMÃ‰RIQUE. Apps web et mobile, produits IA, marques et systÃ¨mes : clartÃ©, croissance et impact. DÃ©filez pour dÃ©couvrir Agence UX | Agence Web & Digitale | DÃ©veloppement Mobile & Ecommerce âœ¦ Casablanca, Maroc #Morocco #Casablanca #Toronto Concevoir, CrÃ©er Engager Get Connected Get Connect",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 6,
+          "videos": 1,
+          "buttons": 6,
+          "forms": 0
+        },
+        "htmlHash": "-975364330",
+        "htmlLength": 170053
+      },
+      "changed": false,
+      "screenshot": "screenshots\\26-canvas-drag-div-nth-of-type-1-div-nth-of-type-2-div-nth-of-type-1-div-nth-of-type-1-div-nt-00286b09ba.png"
+    }
+  ],
+  "network": [],
+  "consoleErrors": [],
+  "findings": [
+    "39 visible interactive candidates discovered",
+    "4 visible canvas targets discovered",
+    "19/26 actions changed DOM, URL, scroll, or visible overlay counts",
+    "Canvas drag evidence exists; inspect screenshots before simplifying WebGL/Canvas behavior."
+  ]
+}

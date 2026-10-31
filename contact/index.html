@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-innodevora.svg" />
+
+
+    <meta
+      name="description"
+      content="Contact Innodevora for creative development, immersive experiences and interactive front-end work. Available for an apprenticeship in Paris from October 2026."
+      data-i18n-attr="content:contact.description"
+    />
+    <title data-i18n="contact.title">Contact — Innodevora</title>
+    <link rel="canonical" href="https://innodevora.com/contact/" />
+    <meta
+      property="og:title"
+      content="Contact — Innodevora"
+      data-i18n-attr="content:contact.title"
+    />
+    <meta
+      property="og:description"
+      content="Contact Innodevora for creative development, immersive experiences and interactive front-end work. Available for an apprenticeship in Paris from October 2026."
+      data-i18n-attr="content:contact.description"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://innodevora.com/contact/" />
+    <meta property="og:image" content="https://innodevora.com/og/home.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Innodevora’s 3D logo featuring the titles Front Creative Developer and Art Director"
+      data-i18n-attr="content:home.imageAlt"
+    />
+    <script type="module" crossorigin src="/assets/contact-JnT2N_AO.js?v=2"></script>
+    <link rel="modulepreload" crossorigin href="/assets/setupCrossPageTransitions-CltNm_Hf.js?v=3">
+    <link rel="modulepreload" crossorigin href="/assets/three.module-fBMLdKIM.js">
+    <link rel="stylesheet" crossorigin href="/assets/setupCrossPageTransitions-D60GSfRM.css">
+    <link rel="stylesheet" crossorigin href="/assets/contact-BRwkgcXW.css">
+      <link rel="stylesheet" href="/assets/dark-mode.css?v=2" />
+    <script src="/assets/dark-mode.js?v=1"></script>
+  </head>
+
+  <body class="contact-page" data-header-capsule-variant="soft-white">
+    <!-------- TRANSITION -------->
+    <script>
+      if (sessionStorage.getItem("pageTransitionPending") === "true") {
+        const storedColor = sessionStorage.getItem("pageTransitionColor")
+        const color = storedColor === "dark" ? "dark" : "cream"
+
+        const transition = document.createElement("div")
+
+        transition.classList.add("page-transition", `page-transition--${color}`)
+
+        transition.setAttribute("aria-hidden", "true")
+        document.body.prepend(transition)
+      }
+    </script>
+
+    <!-------- HEADER -------->
+    <header class="site-header"></header>
+
+    <main class="contact">
+      <div class="contact__frame" aria-hidden="true"></div>
+      <canvas class="contact__canvas" aria-hidden="true"></canvas>
+
+      <section class="contact__fallback" aria-labelledby="contact-title">
+        <h1 id="contact-title" class="contact__heading">
+          <span data-i18n="contact.headingLine1">Let’s create</span>
+          <span data-i18n="contact.headingLine2">something worth</span>
+          <span data-i18n="contact.headingLine3">remembering</span>
+        </h1>
+
+        <div class="contact__availability">
+          <p data-i18n="contact.availability">Available for an apprenticeship</p>
+          <p data-i18n="contact.availabilityMeta">October 2026 · Paris</p>
+        </div>
+
+        <div class="contact__services">
+          <h2 class="visually-hidden" data-i18n="contact.servicesLabel">Services</h2>
+          <ul>
+            <li data-i18n="contact.serviceCreativeDevelopment">creative development</li>
+            <li data-i18n="contact.serviceImmersiveExperiences">immersive experiences</li>
+            <li data-i18n="contact.serviceInteractiveInterfaces">front-end craft</li>
+          </ul>
+        </div>
+
+        <a
+          class="contact__email"
+          href="mailto:contact@innodevora.com"
+          aria-label="Send an email to Innodevora"
+          data-i18n="contact.email"
+          data-i18n-attr="aria-label:contact.emailLabel"
+        >
+          contact@innodevora.com
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-innodevora.svg" />
+
+
+    <meta
+      name="description"
+      content="Creative explorations by Innodevora: interfaces, shader studies, motion design, 3D experiments and visual research."
+      data-i18n-attr="content:playground.description"
+    />
+    <title data-i18n="playground.title">Playground — Creative Explorations | Innodevora</title>
+    <link rel="canonical" href="https://innodevora.com/playground/" />
+    <meta
+      property="og:title"
+      content="Playground — Creative Explorations | Innodevora"
+      data-i18n-attr="content:playground.title"
+    />
+    <meta
+      property="og:description"
+      content="Creative explorations by Innodevora: interfaces, shader studies, motion design, 3D experiments and visual research."
+      data-i18n-attr="content:playground.description"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://innodevora.com/playground/" />
+    <meta property="og:image" content="https://innodevora.com/og/playground.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Preview of Innodevora’s Playground"
+      data-i18n-attr="content:playground.imageAlt"
+    />
+    <script type="module" crossorigin src="/assets/playground-DBbSaWky.js?v=2"></script>
+    <link rel="modulepreload" crossorigin href="/assets/setupCrossPageTransitions-CltNm_Hf.js?v=3">
+    <link rel="modulepreload" crossorigin href="/assets/Observer-C5OqvjuH.js">
+    <link rel="stylesheet" crossorigin href="/assets/setupCrossPageTransitions-D60GSfRM.css">
+    <link rel="stylesheet" crossorigin href="/assets/playground-C1AbmjL1.css?v=2">
+      <link rel="stylesheet" href="/assets/dark-mode.css?v=2" />
+    <script src="/assets/dark-mode.js?v=1"></script>
+  </head>
+
+  <body>
+    <!-------- TRANSITION -------->
+    <script>
+      if (sessionStorage.getItem("pageTransitionPending") === "true") {
+        const storedColor = sessionStorage.getItem("pageTransitionColor")
+        const color = storedColor === "dark" ? "dark" : "cream"
+
+        const transition = document.createElement("div")
+
+        transition.classList.add("page-transition", `page-transition--${color}`)
+
+        transition.setAttribute("aria-hidden", "true")
+        document.body.prepend(transition)
+      }
+    </script>
+
+    <!-------- HEADER -------->
+    <header class="site-header"></header>
+
+    <main class="playground">
+      <h1 class="visually-hidden" data-i18n="playground.heading">
+        Playground — Creative Explorations
+      </h1>
+
+      <section
+        class="playground-sphere"
+        aria-label="Creative explorations"
+        data-i18n-attr="aria-label:playground.sphereLabel"
+        aria-describedby="playground-keyboard-help"
+        tabindex="0"
+      >
+        <p
+          id="playground-keyboard-help"
+          class="visually-hidden"
+          data-i18n="playground.keyboardHelp"
+        >
+          Use the left and right arrow keys to browse the explorations.
+        </p>
+
+        <div class="playground-sphere__container">
+          <div class="playground-sphere__stage">
+            <!-- 01 — Solvea Commerce -->
+            <div
+              class="playground-sphere__media"
+              data-card="1"
+              data-title="Solvea Commerce"
+              data-meta="Shopify · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.shopifyStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-solvea-shopify.webp"
+                draggable="false"
+                aria-label="Solvea Commerce"
+              >
+                <source src="/playground/media/playground-solvea-shopify.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 02 — Eclosia I -->
+            <div
+              class="playground-sphere__media"
+              data-card="2"
+              data-title="Eclosia I"
+              data-meta="Interface design · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.interfaceDesignStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-eclosia1.webp"
+                draggable="false"
+                aria-label="Eclosia I"
+              >
+                <source src="/playground/media/playground-eclosia1.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 3 — Cosmic Orb -->
+            <div
+              class="playground-sphere__media"
+              data-card="17"
+              data-title="Cosmic Orb"
+              data-meta="AI visual experiment · 2026"
+              data-i18n-attr="data-meta:playground.metadata.aiVisualExperiment2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-video-generation-orb.webp"
+                draggable="false"
+                aria-label="Cosmic Orb"
+              >
+                <source
+                  src="/playground/media/playground-video-generation-orb.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <!-- 04 — Galaxy Field -->
+            <div
+              class="playground-sphere__media"
+              data-card="5"
+              data-title="Galaxy Field"
+              data-meta="Three.js shader study · 2026"
+              data-i18n-attr="data-meta:playground.metadata.threeJsShaderStudy2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-shader-galaxy.webp"
+                draggable="false"
+                aria-label="Galaxy Field"
+              >
+                <source src="/playground/media/playground-shader-galaxy.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 05 — Exil -->
+            <div
+              class="playground-sphere__media"
+              data-card="4"
+              data-title="Exil"
+              data-meta="Visual artwork · 2020"
+              data-i18n-attr="data-meta:playground.metadata.visualArtwork2020"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-exil.webp"
+                alt="Exil"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 06 — Pulse in Motion -->
+            <div
+              class="playground-sphere__media"
+              data-card="6"
+              data-title="Pulse in Motion"
+              data-meta="Motion design study · 2020"
+              data-i18n-attr="data-meta:playground.metadata.motionDesignStudy2020"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-pulse-experiment.webp"
+                draggable="false"
+                aria-label="Pulse in Motion"
+              >
+                <source src="/playground/media/playground-pulse-experiment.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 07 — Raging Sea — Night -->
+            <div
+              class="playground-sphere__media"
+              data-card="7"
+              data-title="Raging Sea — Night"
+              data-meta="Three.js shader study · 2026"
+              data-i18n-attr="data-meta:playground.metadata.threeJsShaderStudy2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-shader-dark-sea.webp"
+                draggable="false"
+                aria-label="Raging Sea — Night"
+              >
+                <source src="/playground/media/playground-shader-dark-sea.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 08 — Bouche à Oreille -->
+            <div
+              class="playground-sphere__media"
+              data-card="9"
+              data-title="Bouche à Oreille"
+              data-meta="Web design · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.webDesignStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-bouche-oreille.webp"
+                draggable="false"
+                aria-label="Bouche à Oreille"
+              >
+                <source src="/playground/media/playground-bouche-oreille.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 09 — Blooming Orb -->
+            <div
+              class="playground-sphere__media"
+              data-card="8"
+              data-title="Blooming Orb"
+              data-meta="AI visual experiment · 2026"
+              data-i18n-attr="data-meta:playground.metadata.aiVisualExperiment2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-video-generation-flower.webp"
+                draggable="false"
+                aria-label="Blooming Orb"
+              >
+                <source
+                  src="/playground/media/playground-video-generation-flower.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <!-- 10 — Fluid Form -->
+            <div
+              class="playground-sphere__media"
+              data-card="10"
+              data-title="Fluid Form"
+              data-meta="Cinema 4D study · 2019"
+              data-i18n-attr="data-meta:playground.metadata.cinema4DStudy2019"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-3d-fluid-linkedin.webp"
+                alt="Fluid Form"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 11 — Biomimicry Cards -->
+            <div
+              class="playground-sphere__media"
+              data-card="11"
+              data-title="Biomimicry Cards"
+              data-meta="Game &amp; interface design · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.gameInterfaceDesignStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-biomimetism-game.webp"
+                draggable="false"
+                aria-label="Biomimicry Cards"
+              >
+                <source src="/playground/media/playground-biomimetism-game.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 12 — Raging Sea -->
+            <div
+              class="playground-sphere__media playground-sphere__media--first"
+              data-card="20"
+              data-title="Raging Sea"
+              data-meta="Three.js shader study · 2026"
+              data-i18n-attr="data-meta:playground.metadata.threeJsShaderStudy2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-shader-cloud-sea.webp"
+                draggable="false"
+                aria-label="Raging Sea"
+              >
+                <source src="/playground/media/playground-shader-cloud-sea.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 13 — Eclosia II -->
+            <div
+              class="playground-sphere__media"
+              data-card="13"
+              data-title="Eclosia II"
+              data-meta="Interface design · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.interfaceDesignStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-eclosia2.webp"
+                draggable="false"
+                aria-label="Eclosia II"
+              >
+                <source src="/playground/media/playground-eclosia2.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 14 — Digital Globe -->
+            <div
+              class="playground-sphere__media"
+              data-card="14"
+              data-title="Digital Globe"
+              data-meta="Three.js shader study · 2026"
+              data-i18n-attr="data-meta:playground.metadata.threeJsShaderStudy2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-shader-globe.webp"
+                draggable="false"
+                aria-label="Digital Globe"
+              >
+                <source src="/playground/media/playground-shader-globe.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 15 — Music genre data viz -->
+            <div
+              class="playground-sphere__media"
+              data-card="15"
+              data-title="Music genre visualizer"
+              data-meta="3D data visualization · 2026"
+              data-i18n-attr="data-meta:playground.metadata.dataVisualization3D2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-music-data-visualizer.webp"
+                draggable="false"
+                aria-label="Music genre visualizer"
+              >
+                <source
+                  src="/playground/media/playground-music-data-visualizer.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <!-- 16 — Foot Locker Challenge -->
+            <div
+              class="playground-sphere__media"
+              data-card="16"
+              data-title="Foot Locker Challenge"
+              data-meta="Interactive game · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.interactiveGameStudent2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-footlocker.webp"
+                draggable="false"
+                aria-label="Foot Locker Challenge"
+              >
+                <source src="/playground/media/playground-footlocker.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 17 — Particle Trail -->
+            <div
+              class="playground-sphere__media"
+              data-card="3"
+              data-title="Particle Trail"
+              data-meta="Three.js shader study · 2026"
+              data-i18n-attr="data-meta:playground.metadata.threeJsShaderStudy2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-shader-canvas2D.webp"
+                draggable="false"
+                aria-label="Particle Trail"
+              >
+                <source src="/playground/media/playground-shader-canvas2D.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 18 — Blue Study -->
+            <div
+              class="playground-sphere__media"
+              data-card="18"
+              data-title="Blue Study"
+              data-meta="Web design · Student project · 2019"
+              data-i18n-attr="data-meta:playground.metadata.webDesignStudent2019"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-bleu.webp"
+                draggable="false"
+                aria-label="Blue Study"
+              >
+                <source src="/playground/media/playground-bleu.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 19 — Solvea Identity -->
+            <div
+              class="playground-sphere__media"
+              data-card="19"
+              data-title="Solvea Identity"
+              data-meta="Brand identity · Student project · 2026"
+              data-i18n-attr="data-meta:playground.metadata.brandIdentityStudent2026"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-solvea.webp"
+                alt="Solvea Identity"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 20 — Vault Sessions -->
+            <div
+              class="playground-sphere__media"
+              data-card="12"
+              data-title="Vault Sessions"
+              data-meta="Motion design · 2019"
+              data-i18n-attr="data-meta:playground.metadata.motionDesign2019"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-vault.webp"
+                draggable="false"
+                aria-label="Vault Sessions"
+              >
+                <source src="/playground/media/playground-vault.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- 21 — Capture × Grand Palais -->
+            <div
+              class="playground-sphere__media"
+              data-card="21"
+              data-title="Capture × Grand Palais"
+              data-meta="Art direction · 2020"
+              data-i18n-attr="data-meta:playground.metadata.artDirection2020"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-capture.webp"
+                alt="Capture × Grand Palais"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 22 — Exil Study II -->
+            <div
+              class="playground-sphere__media"
+              data-card="22"
+              data-title="Exil Study II"
+              data-meta="Cinema 4D study · 2020"
+              data-i18n-attr="data-meta:playground.metadata.cinema4DStudy2020"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-exil-lab2.webp"
+                alt="Exil Study II"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 23 — Exil Study I -->
+            <div
+              class="playground-sphere__media"
+              data-card="23"
+              data-title="Exil Study I"
+              data-meta="Cinema 4D study · 2020"
+              data-i18n-attr="data-meta:playground.metadata.cinema4DStudy2020"
+            >
+              <img
+                class="playground-sphere__visual"
+                src="/playground/media/playground-exil-lab1.webp"
+                alt="Exil Study I"
+                decoding="async"
+                draggable="false"
+              />
+            </div>
+
+            <!-- 24 — Forest Orb -->
+            <div
+              class="playground-sphere__media"
+              data-card="24"
+              data-title="Forest Orb"
+              data-meta="AI visual experiment · 2026"
+              data-i18n-attr="data-meta:playground.metadata.aiVisualExperiment2026"
+            >
+              <video
+                class="playground-sphere__visual"
+                muted
+                loop
+                playsinline
+                preload="none"
+                poster="/playground/posters/playground-forest.webp"
+                draggable="false"
+                aria-label="Forest Orb"
+              >
+                <source src="/playground/media/playground-forest.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <!-- Shared caption: content is updated from the centered card data attributes -->
+            <div class="playground-sphere__caption" aria-live="polite" aria-atomic="true">
+              <h2 class="playground-sphere__caption-title"></h2>
+              <p class="playground-sphere__caption-meta"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

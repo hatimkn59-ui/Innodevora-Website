@@ -1,0 +1,692 @@
+/* ---------------------------------------------------------------------------
+   Visionwork banner — a cinematic agency site presented inside an interactive
+   browser window, living in the homepage's existing `.manifesto` section.
+
+   The site keys off `.manifesto` and `#manifesto` in three places: the scroll
+   rail sync, the section's ScrollTrigger, and the hash/section map. All three
+   keep working because the section keeps both hooks. Dropping
+   `.manifesto .text` is what disables the old pinned marquee — that code path
+   starts with `if (!document.querySelector('.manifesto .text')) return`.
+
+   Everything here is prefixed `vw-` and every token `--vw-`, because the site's
+   CSS is global and unprefixed (`.site-header`, `.hero-three`, `.browser` …).
+   No `@font-face` and no reset below: `CabinetGrotesk-Variable` and
+   `Satoshi-Variable` are already declared by the shared stylesheet, and
+   `.visually-hidden` comes from setupCrossPageTransitions.
+--------------------------------------------------------------------------- */
+
+.vw-banner {
+  /* `.manifesto` ships a cream background and `overflow: hidden`; this section
+     is a dark composition, so back it with the site's dark tone rather than
+     letting a cream sliver show during the hero hand-off.
+
+     `position: relative` alone is not enough here: `.hero-three__frame` carries
+     an explicit `z-index: 1`, and a positioned element with `z-index: auto`
+     paints *below* one with `z-index: 1`. Matching the z-index and relying on
+     DOM order is what actually keeps this section's dark backdrop above the
+     pinned 3D hero — otherwise the orange scene shows through the gutters. */
+  position: relative;
+  z-index: 1;
+  background-color: var(--color-dark);
+  padding-inline: clamp(16px, 4vw, 40px);
+  /* One token for both edges: the window is this section's only in-flow child
+     (the navband is absolute, the live region and the h2 are .visually-hidden),
+     so equal padding is what centres it vertically. Separate top/bottom values
+     left it sitting high in the block with 41px above and 76px below. */
+  padding-block: clamp(28px, 5vh, 72px);
+
+  /* A near-black stage lit by one warm source sitting just above the window.
+     Layer order is top-first:
+       1. the light — narrow and centred, so the chrome reads as *lit* rather
+          than as a panel floating on a flat wash;
+       2. a faint cool fill low down, which stops the whole stage collapsing
+          into a single muddy brown once the warm layer sits on the dark base;
+       3. a soft centre lift, which is where the stage's depth comes from;
+       4. base — near-black at the top easing into the site's own dark tone.
+
+     Every overlay layer has to reach full transparency *before* the bottom edge
+     so that only the base gradient is still painting on the last pixel row, and
+     it lands exactly on `var(--color-dark)` — the `.trajectory` block below it.
+     A radial vignette with a dark outer stop breaks that: it keeps applying
+     black right through the final row, so the section ends darker than the
+     block underneath and draws a hard horizontal seam across the page. That
+     radial is also where the purple/orange blotches in the two bottom corners
+     came from; the old version spread the orange over 120% x 80% of the
+     section and turned `--color-dark` muddy brown. */
+  background-image:
+    radial-gradient(46% 34% at 50% 0%, rgba(255, 136, 58, .18), transparent 74%),
+    radial-gradient(52% 34% at 50% 104%, rgba(122, 132, 196, .05), transparent 76%),
+    radial-gradient(64% 46% at 50% 30%, rgba(255, 255, 255, .026), transparent 70%),
+    linear-gradient(180deg, #0a090a 0%, #141112 56%, var(--color-dark) 100%);
+}
+
+/* Dither. A large, smooth gradient over a dark base bands badly in 8-bit — that
+   visible stepping is most of why the stage read as low quality. A tiled
+   fractal-noise layer at a few percent breaks up the ramp without showing as
+   grain. It paints above the background but below the window (z-index 1). */
+.vw-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: .055;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
+/* The standalone page this was lifted from relied on a document-wide reset
+   (`a { color: inherit; text-decoration: none }`, `button { border: 0 }`) and
+   on `body { color: #fff }`. None of that exists here — the site's own reset
+   leaves the UA defaults in place — so restore it *inside this section only*.
+   Without it the previewed site renders black on black, links come out blue
+   and underlined, and every chrome button keeps its 2px outset border.
+
+   `:where()` is load-bearing: it contributes no specificity, so these stay at
+   one class and every later `.vw-*` rule that sets its own colour or fill
+   (`.vw-pill`, `.vw-site__cta`, `.vw-tab[aria-selected]` …) still wins. Written
+   plainly as `a { color: inherit }` they would have won instead and turned the
+   white-on-white pill label invisible. */
+.vw-banner :where(a) { color: inherit; text-decoration: none; }
+.vw-banner :where(button) {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Invisible marker over the band that holds the previewed site's own
+   navigation, so the fixed site header stays clear of it. */
+.vw-banner__navband {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 34%;
+  pointer-events: none;
+}
+
+/* =========================================================================
+   Browser window
+   ========================================================================= */
+.vw-browser {
+  position: relative;
+  z-index: 1;
+
+  /* ── sizing model ───────────────────────────────────────────────────────
+     The reference composition is this page rendered at a **1920 CSS px**
+     viewport: the window measures 1320 x 829 and sits at x=300, which is
+     exactly (1920 - 1320) / 2. So the reference proportion is 1320/1920 =
+     68.75% of the viewport, not a fixed pixel width.
+
+     A fixed `max-width` cannot reproduce that. On a 125%-scaled display at
+     80% browser zoom the CSS viewport was 1920 and the old `max-width:1320`
+     filled 68.75% — matching the screenshot. Drop the zoom to 100% and the
+     viewport becomes 1536, where the same fixed 1320px fills **86%** and the
+     composition no longer resembles the reference at all. That is the bug.
+
+     So the window tracks the viewport instead. `calc(54vw + 264px)` is the
+     line fitted through two points:
+       - 1920px wide  -> 1301px, the reference's 1320 within 1.4%;
+       - ~695px wide  -> the section's own content width, so below that the
+                          container wins `min()` and **nothing changes** —
+                          the phone and small-tablet treatments below 700px
+                          keep the exact width they have today.
+     Measured across the required desktop sizes it lands at 68-72% of the
+     viewport — the reference's 68.75% — instead of the old 69-94%.
+
+     `min(100%, …)` is the overflow guard: the window can never exceed the
+     section's content box no matter what `vw` says (matters when the
+     scrollbar makes `vw` wider than the box).
+     The fourth term is the height budget, added at >=701px only — see the
+     media query below. */
+  width: min(100%, 1320px, calc(54vw + 264px));
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+
+  --vw-frame:      #17171a;   /* chrome body             */
+  --vw-frame-edge: #202024;   /* toolbar / tab surface   */
+  --vw-frame-deep: #0d0d0f;   /* tab strip bed           */
+  --vw-hairline:   rgba(255, 255, 255, .09);
+  --vw-fg:         rgba(255, 255, 255, .78);
+  --vw-fg-dim:     rgba(255, 255, 255, .52);
+  --vw-ease:       cubic-bezier(.22, 1, .36, 1);
+
+  background: var(--vw-frame);
+  border: 1px solid var(--vw-hairline);
+  border-radius: 14px;
+  overflow: hidden;
+
+  /* layered shadow = the window floats above the page */
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .07) inset,
+    0 0 0 1px rgba(0, 0, 0, .55),
+    0 2px 3px rgba(0, 0, 0, .4),
+    0 28px 55px -12px rgba(0, 0, 0, .72),
+    0 70px 120px -30px rgba(0, 0, 0, .78);
+
+  /* No `transform` here, deliberately.
+
+     This rule used to carry `perspective(2200px) rotateX(.7deg)` — a "barely-
+     there 3D lean so it reads as a physical object, not a div". It failed on
+     both halves of that sentence.
+
+     The lean was 0.7° about the bottom edge, which foreshortens the top of the
+     window by 0.42%. Nothing perceivable — you cannot tell the tilt is there.
+
+     The cost was real, and it is why this section read as low quality. A 3D
+     transform pushes the element into a composited layer that Chromium
+     rasterises at reduced fidelity, and `perspective()` on top of that
+     multiplies it. Measured on the same slice of the site's own navigation
+     text at 1440px (high-frequency energy / Laplacian variance — higher is
+     crisper):
+
+       devicePixelRatio 2   perspective + rotateX   1.31 / 120
+                            rotateX only            1.93 / 460
+                            no transform            2.52 / 646
+       devicePixelRatio 1   perspective + rotateX   2.40 / 776
+                            no transform            2.87 / 1548
+
+     So an invisible tilt was smearing every glyph in the composition — the
+     toolbar URL, the four project tabs, all of the previewed site's copy —
+     by roughly 5x on HiDPI displays.
+
+     Nothing about the float depended on it. The shadow stack above, the
+     hairline border and the inset top highlight all do the work of saying
+     "physical object", and they are unaffected. Below 700px and under
+     `prefers-reduced-motion` the transform was already being switched off,
+     which is the proof that flat was always a valid state for this window. */
+}
+
+/* ── toolbar ────────────────────────────────────────────────────────────── */
+.vw-toolbar {
+  flex: none;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  height: 46px;
+  padding: 0 14px;
+  background: var(--vw-frame-edge);
+  border-bottom: 1px solid rgba(0, 0, 0, .45);
+}
+.vw-toolbar__left  { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.vw-toolbar__right { display: flex; align-items: center; justify-content: flex-end; }
+
+.vw-dots { display: flex; align-items: center; gap: 8px; }
+.vw-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .5px rgba(0, 0, 0, .28), 0 1px 1px rgba(0, 0, 0, .3);
+}
+.vw-dot--red   { background: #ff5f57; }
+.vw-dot--amber { background: #febc2e; }
+.vw-dot--green { background: #28c840; }
+
+.vw-tbtns { display: flex; align-items: center; gap: 2px; }
+
+.vw-tbtn {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  color: var(--vw-fg-dim);
+  transition: color .16s var(--vw-ease), background-color .16s var(--vw-ease);
+}
+.vw-tbtn svg { width: 17px; height: 17px; }
+.vw-tbtn:hover:not(:disabled) { color: var(--vw-fg); background: rgba(255, 255, 255, .08); }
+.vw-tbtn:active:not(:disabled) { background: rgba(255, 255, 255, .14); }
+.vw-tbtn:focus-visible { outline: 2px solid #ff8a15; outline-offset: 1px; }
+.vw-tbtn:disabled { opacity: .32; cursor: default; }
+
+/* centred omnibox — the anchor of the whole toolbar */
+.vw-omnibox {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: min(640px, 100%);
+  height: 30px;
+  padding: 0 4px 0 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, .38);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .07);
+}
+.vw-omnibox__lock { width: 13px; height: 13px; color: var(--vw-fg-dim); flex: none; }
+.vw-omnibox__url {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: center;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: .005em;
+  color: var(--vw-fg);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.vw-omnibox__reload { width: 24px; height: 24px; flex: none; }
+.vw-omnibox__reload svg { width: 14px; height: 14px; }
+.vw-omnibox__reload.is-spinning svg { animation: vw-spin .55s var(--vw-ease); }
+@keyframes vw-spin { to { rotate: 360deg; } }
+
+/* ── tab strip ──────────────────────────────────────────────────────────── */
+.vw-tabstrip {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  padding: 0 12px;
+  background: var(--vw-frame-deep);
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+.vw-tabstrip__label {
+  flex: none;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .34);
+  padding-right: 4px;
+}
+.vw-tabstrip__more {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: var(--vw-fg-dim);
+  padding-left: 2px;
+}
+.vw-tabstrip__more svg { width: 13px; height: 13px; }
+
+.vw-tabs {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.vw-tabs::-webkit-scrollbar { display: none; }
+
+.vw-tab {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 8px;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .002em;
+  color: var(--vw-fg-dim);
+  white-space: nowrap;
+  transition: color .18s var(--vw-ease), background-color .18s var(--vw-ease);
+}
+.vw-tab__icon { width: 15px; height: 15px; flex: none; }
+.vw-tab__icon svg { width: 100%; height: 100%; display: block; }
+
+.vw-tab:hover  { color: var(--vw-fg); background: rgba(255, 255, 255, .07); }
+.vw-tab:focus-visible { outline: 2px solid #ff8a15; outline-offset: 1px; }
+
+.vw-tab[aria-selected='true'] {
+  color: #fff;
+  background: rgba(255, 255, 255, .11);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .08);
+}
+
+/* =========================================================================
+   The previewed website
+   ========================================================================= */
+.vw-viewport {
+  position: relative;
+  flex: none;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  container-type: inline-size;
+  background: #0a0a0b;
+}
+
+.vw-site {
+  --accent: #fff;
+  --accent-soft: rgba(255, 255, 255, .72);
+  --headline-font: CabinetGrotesk-Variable, Arial, sans-serif;
+  --headline-weight: 700;
+  --headline-tracking: -.022em;
+  --lede-weight: 400;
+  --eyebrow-transform: none;
+  --eyebrow-tracking: .16em;
+  --pill-bg: #fff;
+  --pill-fg: #101010;
+  --scrim: linear-gradient(96deg, rgba(8, 7, 6, .93) 0%, rgba(8, 7, 6, .74) 34%, rgba(8, 7, 6, .34) 62%, rgba(8, 7, 6, .08) 100%);
+
+  position: relative;
+  height: 100%;
+  isolation: isolate;
+  /* the previewed site's own base colour — without it every line that has no
+     accent of its own inherits black from the page and vanishes on the photo */
+  color: #fff;
+  font-family: Satoshi-Variable, Arial, Helvetica, sans-serif;
+  transition: opacity .38s var(--vw-ease), transform .38s var(--vw-ease);
+}
+.vw-site.is-out { opacity: 0; transform: translateY(10px);  transition-duration: .17s; }
+.vw-site.is-in  { opacity: 0; transform: translateY(-8px); transition-duration: 0s; }
+
+/* Auto-rotation swaps with a cut (see render()); only the photo dissolves,
+   briefly, so each project is readable before the next one arrives. */
+.vw-site.is-auto .vw-hero__img { transition-duration: .2s; }
+
+/* ── hero media (two stacked layers = true crossfade) ───────────────────── */
+.vw-hero { position: relative; height: 100%; overflow: hidden; }
+
+/* Explicit paint ladder: fallback → photo → scrim → copy. The fallback MUST
+   stay below the photo — both used to share z-index:0 but the fallback sat
+   later in DOM, so it painted over every image and greyed the hero out.
+   `.vw-hero__media` is deliberately transparent so the fallback still shows
+   through if a photo never loads. */
+.vw-hero__media { position: absolute; inset: 0; z-index: 1; }
+
+.vw-hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% 45%;
+  opacity: 0;
+  transition: opacity .72s var(--vw-ease);
+}
+.vw-hero__img.is-shown { opacity: 1; }
+
+/* fallback that shows through if an image never loads */
+.vw-hero__fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(74% 92% at 77% 33%,
+      color-mix(in srgb, var(--accent-soft, #fff) 30%, transparent), transparent 66%),
+    linear-gradient(140deg, #16151b 0%, #09090b 100%);
+}
+
+.vw-hero__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: var(--scrim);
+}
+/* nav sits over the brightest part of every image — keep it legible */
+.vw-hero__scrim::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(4, 4, 5, .46) 0%, rgba(4, 4, 5, 0) 20%);
+}
+/* keeps the lower third readable without flattening the whole frame */
+.vw-hero__scrim::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(4, 4, 5, .64) 0%, rgba(4, 4, 5, .20) 22%, transparent 46%);
+}
+
+/* ── site navigation ────────────────────────────────────────────────────── */
+.vw-site__nav {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: clamp(16px, 2.6cqi, 30px) clamp(18px, 4.2cqi, 46px);
+  /* the nav sits over whatever the photograph happens to do at the top edge,
+     so anchor it with a shadow rather than trusting each image to be dark */
+  text-shadow: 0 1px 14px rgba(0, 0, 0, .62), 0 0 3px rgba(0, 0, 0, .45);
+}
+
+.vw-brand { display: flex; align-items: center; gap: 9px; flex: none; }
+.vw-brand__mark { display: block; width: clamp(18px, 2cqi, 25px); height: clamp(18px, 2cqi, 25px); color: var(--accent); }
+.vw-brand__mark svg { width: 100%; height: 100%; display: block; }
+.vw-brand__name {
+  font-size: clamp(14px, 1.55cqi, 19px);
+  font-weight: 700;
+  letter-spacing: -.012em;
+}
+
+.vw-site__links { display: flex; align-items: center; gap: clamp(14px, 2.4cqi, 32px); margin-inline: auto; }
+.vw-site__links a {
+  font-size: clamp(12px, 1.18cqi, 15px);
+  color: var(--accent-soft);
+  letter-spacing: .01em;
+  text-decoration: none;
+  transition: color .18s var(--vw-ease);
+}
+.vw-site__links a:hover, .vw-site__links a:focus-visible { color: var(--accent); }
+.vw-site__links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
+
+.vw-site__cta {
+  flex: none;
+  font-size: clamp(12px, 1.15cqi, 14.5px);
+  padding: clamp(7px, .85cqi, 11px) clamp(13px, 1.6cqi, 21px);
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  /* a faint glass fill so the accent keeps its contrast on bright frames */
+  background: rgba(8, 8, 10, .34);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: var(--accent);
+  transition: background-color .2s var(--vw-ease), color .2s var(--vw-ease), border-color .2s var(--vw-ease);
+}
+.vw-site__cta:hover, .vw-site__cta:focus-visible { background: var(--accent); color: #0c0c0c; border-color: var(--accent); }
+.vw-site__cta:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ── hero copy ──────────────────────────────────────────────────────────── */
+.vw-hero__inner {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 0;
+  width: min(58%, 780px);
+  padding: 0 clamp(18px, 4.2cqi, 46px) clamp(78px, 11cqi, 122px);
+}
+
+.vw-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 clamp(10px, 1.5cqi, 18px);
+  font-size: clamp(11px, 1.05cqi, 13.5px);
+  font-weight: 600;
+  letter-spacing: var(--eyebrow-tracking);
+  text-transform: var(--eyebrow-transform);
+  color: var(--accent-soft);
+}
+.vw-eyebrow__rule { width: clamp(20px, 2.4cqi, 34px); height: 1px; background: currentColor; opacity: .65; flex: none; }
+
+.vw-headline {
+  margin: 0 0 clamp(12px, 1.8cqi, 22px);
+  font-family: var(--headline-font);
+  font-weight: var(--headline-weight);
+  font-size: clamp(30px, 4.35cqi, 60px);
+  line-height: 1.04;
+  letter-spacing: var(--headline-tracking);
+  text-wrap: pretty;
+}
+
+.vw-lede {
+  max-width: 46ch;
+  margin: 0 0 clamp(18px, 2.6cqi, 32px);
+  font-size: clamp(12.5px, 1.28cqi, 16.5px);
+  font-weight: var(--lede-weight);
+  line-height: 1.55;
+  color: var(--accent-soft);
+}
+
+.vw-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(9px, 1.1cqi, 14px);
+  padding: 5px 5px 5px clamp(16px, 2cqi, 26px);
+  border-radius: 999px;
+  background: var(--pill-bg);
+  color: var(--pill-fg);
+  font-size: clamp(12.5px, 1.22cqi, 16px);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .22s var(--vw-ease), box-shadow .22s var(--vw-ease);
+}
+.vw-pill:hover, .vw-pill:focus-visible { transform: translateY(-2px); box-shadow: 0 10px 26px -8px rgba(0, 0, 0, .6); }
+.vw-pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.vw-pill__dot {
+  display: grid;
+  place-items: center;
+  width: clamp(30px, 3.5cqi, 42px);
+  height: clamp(30px, 3.5cqi, 42px);
+  border-radius: 50%;
+  background: #101010;
+  color: #fff;
+}
+.vw-pill__dot svg { width: clamp(14px, 1.6cqi, 19px); height: clamp(14px, 1.6cqi, 19px); transition: translate .22s var(--vw-ease); }
+.vw-pill:hover .vw-pill__dot svg { translate: 2px 0; }
+
+/* ── trust marker ───────────────────────────────────────────────────────── */
+.vw-trust {
+  position: absolute;
+  z-index: 3;
+  left: clamp(18px, 4.2cqi, 46px);
+  bottom: clamp(26px, 4cqi, 46px);
+  display: flex;
+  align-items: center;
+  gap: clamp(9px, 1.2cqi, 15px);
+  font-size: clamp(10.5px, 1.02cqi, 13.5px);
+  color: var(--accent-soft);
+}
+.vw-trust__rule { width: 1px; height: clamp(18px, 2.2cqi, 28px); background: currentColor; opacity: .5; flex: none; }
+.vw-stars { display: flex; gap: 2px; }
+.vw-stars svg { width: clamp(11px, 1.25cqi, 16px); height: clamp(11px, 1.25cqi, 16px); fill: var(--accent); }
+.vw-trust__text { letter-spacing: .01em; }
+
+/* =========================================================================
+   Responsive
+   ========================================================================= */
+
+/* ── vertical budget ────────────────────────────────────────────────────────
+   The width term alone keeps the frame proportional, but it is blind to how
+   *short* the window is: 1920x640 would get a 1301px-wide frame whose 16/9
+   viewport is 730px tall — nearly twice the screen. So at >=701px (the range
+   where `aspect-ratio` drives the height, see .vw-viewport) width is also
+   capped by a height budget.
+
+   Target: padding + frame <= 92% of the viewport, leaving the tail of the
+   section visible so the mockup never eats the whole screen. Substituting the
+   section's own geometry — padding 5vh per edge (clamp(28px, 5vh, 72px)),
+   frame = 88px of chrome and borders + (width - 2) x 9/16 of preview — and
+   solving for width gives:
+
+       0.1V + 88 + (w - 2) * 0.5625 = 0.92V
+       w = 1.458V - 154
+
+   Below ~836px tall this term binds; above it the 54vw term does, so on the
+   four required resolutions it only bites at 1366x768 (965px vs 967px) and
+   otherwise just guarantees the frame fits. Nothing here uses `zoom` or
+   `transform: scale()` — the composition is pure sizing, so it is identical
+   at any browser zoom level.
+   Scoped to >=701px so the phone landscape case keeps its own fixed-height
+   viewport treatment instead of being squeezed by a term derived for 16/9. */
+@media (min-width: 701px) {
+  .vw-browser {
+    width: min(100%, 1320px, calc(54vw + 264px), calc(145.8vh - 154px));
+  }
+}
+
+/* tablet: a taller frame, since the window is narrower than the copy needs */
+@media (max-width: 900px) {
+  .vw-viewport { aspect-ratio: 3 / 2; }
+  .vw-hero__inner { width: min(76%, 620px); }
+  .vw-site__links { display: none; }   /* too narrow for 3 links + CTA */
+}
+
+/* phone */
+@media (max-width: 700px) {
+  /* a taller frame again — the copy no longer fits a landscape window */
+  .vw-viewport { aspect-ratio: auto; height: clamp(430px, 122vw, 540px); }
+
+  /* breathing room above the window — the vertical band that used to hold the
+     oversized wordmark is gone, so it only has to clear the hero's hand-off */
+  .vw-banner { padding-block: clamp(22px, 3.4vh, 40px); }
+
+  .vw-browser { border-radius: 12px; }
+
+  /* adapt the toolbar: keep the dots, omnibox and share; drop back/forward */
+  .vw-toolbar { height: 42px; padding: 0 10px; gap: 8px; grid-template-columns: auto 1fr auto; }
+  .vw-tbtns { display: none; }
+  .vw-omnibox { width: 100%; padding-left: 10px; }
+  .vw-omnibox__url { font-size: 12px; }
+
+  .vw-tabstrip { height: 38px; padding: 0 8px; gap: 6px; }
+  .vw-tabstrip__label { display: none; }
+  .vw-tabs { scroll-behavior: smooth; }
+
+  /* tighten the tabs so all four fit the strip before it needs scrolling */
+  .vw-tab { height: 26px; padding: 0 9px; gap: 5px; font-size: 12px; }
+  .vw-tab__icon { width: 14px; height: 14px; }
+
+  .vw-site__nav { gap: 10px; padding: 14px 16px; }
+  .vw-brand__name { font-size: 15px; }
+
+  .vw-hero__img { object-position: 62% 42%; }
+
+  .vw-hero__inner { width: 100%; padding: 0 18px 118px; }
+  .vw-headline { font-size: clamp(25px, 7.2cqi, 34px); line-height: 1.06; }
+  .vw-lede { font-size: 13.5px; max-width: 34ch; }
+
+  .vw-trust { left: 18px; bottom: 30px; gap: 10px; }
+  .vw-trust__text { font-size: 11.5px; }
+}
+
+/* short/narrow phones */
+@media (max-width: 420px) {
+  .vw-headline { font-size: clamp(23px, 7.4cqi, 30px); }
+  .vw-lede { font-size: 12.5px; }
+  .vw-hero__inner { padding-bottom: 104px; }
+}
+
+/* The banner carries its own navigation, so the site header stays out of its
+   way while that band is on screen and returns for the rest of the page. */
+html.vw-nav-inview .site-header {
+  transform: translateY(-110%) !important;
+}
+
+/* =========================================================================
+   Reduced motion — drop every transition and animation
+   The window itself is never transformed in the first place (see .vw-browser),
+   so there is no 3D lean to switch off here any more.
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  .vw-site,
+  .vw-hero__img,
+  .vw-pill, .vw-pill__dot svg,
+  .vw-tab, .vw-tbtn,
+  html.vw-nav-inview .site-header { transition: none !important; }
+  .vw-omnibox__reload.is-spinning svg { animation: none; }
+}

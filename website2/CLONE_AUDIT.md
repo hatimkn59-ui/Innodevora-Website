@@ -1,0 +1,408 @@
+# Clone Audit
+
+- Project: C:\Users\kandi\AppData\Roaming\Open Design\namespaces\release-stable-win\data\projects\6a17d9b7-46d5-477c-94f9-6fb8d4bb14e5
+- Scanned files: 17
+- Findings: 386
+
+## 保真度硬伤（字体 / 图片 / 颜色）
+- 未发现
+
+## 追踪脚本 / 统计像素
+- .od-skills\web-clone-162ae34100\SKILL.md:157 · Google Tag Manager · `googletagmanager`
+
+## 原站品牌残留
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-Bf6FNrOXyV5J.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- assets\js\framerusercontent\sites\38UUnKPstCvsIOUTUjqT9c\searchIndex-UuJnSM6GTz1a.json:1 · brand residue: Sites · `Sites`
+- index.html:16 · brand residue: Sites · `Sites`
+- index.html:18 · brand residue: Sites · `sites`
+- index.html:19 · brand residue: Sites · `sites`
+- index.html:57 · brand residue: Sites · `Sites`
+- index.html:58 · brand residue: Sites · `Sites`
+- index.html:77 · brand residue: Sites · `Sites`
+- index.html:93 · brand residue: Sites · `Sites`
+- index.html:94 · brand residue: Sites · `Sites`
+- index.html:94 · brand residue: Sites · `sites`
+- index.html:95 · brand residue: Sites · `sites`
+- index.html:96 · brand residue: Sites · `sites`
+- index.html:103 · brand residue: Sites · `Sites`
+- index.html:104 · brand residue: Sites · `Sites`
+- index.html:104 · brand residue: Sites · `sites`
+- index.html:108 · brand residue: Sites · `Sites`
+- index.html:109 · brand residue: Sites · `Sites`
+- index.html:109 · brand residue: Sites · `sites`
+- index.html:210 · brand residue: Sites · `sites`
+- index.html:221 · brand residue: Sites · `Sites`
+- index.html:221 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:449 · brand residue: Sites · `Sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+- index.html:458 · brand residue: Sites · `sites`
+
+## 日文残留
+- 未发现
+
+## TODO / 占位内容
+- .od-skills\web-clone-162ae34100\references\deliverables.md:137 · TODO / placeholder content · `TODO`
+- .od-skills\web-clone-162ae34100\references\design-dna.md:41 · TODO / placeholder content · `TODO`
+- .od-skills\web-clone-162ae34100\SKILL.md:267 · TODO / placeholder content · `TODO`
+- .od-skills\web-clone-162ae34100\SKILL.md:282 · TODO / placeholder content · `TODO`
+
+## 外部依赖 / 外链风险
+- .od-skills\web-clone-162ae34100\references\design-dna.md:7 · external URL · `https://github.com/zanwei/design-dna`
+- .od-skills\web-clone-162ae34100\references\effect-extraction.md:6 · external URL · `https://github.com/lixiaolin94/skills`
+- .od-skills\web-clone-162ae34100\references\marbles-case.md:3 · external URL · `https://chiuhans111.github.io/marbles/`
+- .od-skills\web-clone-162ae34100\references\static-mirror.md:38 · external URL · `https://use.typekit.net/`
+- .od-skills\web-clone-162ae34100\references\static-mirror.md:49 · external URL · `https://use.typekit.net/`
+- .od-skills\web-clone-162ae34100\references\static-mirror.md:51 · external URL · `https://use\.typekit\.net/`
+- .od-skills\web-clone-162ae34100\SKILL.md:64 · external URL · `https://raw.githubusercontent.com/`
+- .od-skills\web-clone-162ae34100\SKILL.md:173 · external URL · `http://127.0.0.1:`
+- .od-skills\web-clone-162ae34100\SKILL.md:178 · external URL · `http://127.0.0.1:`
+- .od-skills\web-clone-162ae34100\SKILL.md:185 · external URL · `http://127.0.0.1:`
+- index.html:9 · external URL · `https://framer.com/edit/init.mjs`
+- index.html:14 · external URL · `https://schema.org`
+- index.html:19 · external URL · `https://sites-template.framer.website`
+- index.html:20 · external URL · `https://framerusercontent.com/images/jhktAaXaKmEJY3ctlo5t84iGEHw.png`
+- index.html:43 · external URL · `https://linkedin.com`
+- index.html:44 · external URL · `https://instagram.com`
+- index.html:45 · external URL · `https://x.com`
+- index.html:52 · external URL · `https://schema.org`
+- index.html:95 · external URL · `https://framerusercontent.com/sites/38UUnKPstCvsIOUTUjqT9c/searchIndex-Bf6FNrOXyV5J.json`
+- index.html:96 · external URL · `https://framerusercontent.com/sites/38UUnKPstCvsIOUTUjqT9c/searchIndex-UuJnSM6GTz1a.json`
+- index.html:98 · external URL · `https://framerusercontent.com/images/OjhWFXKuV2NXKu3h9lmi4Nr6Y0.png`
+- index.html:105 · external URL · `https://framerusercontent.com/images/jhktAaXaKmEJY3ctlo5t84iGEHw.png`
+- index.html:110 · external URL · `https://framerusercontent.com/images/jhktAaXaKmEJY3ctlo5t84iGEHw.png`
+- index.html:118 · external URL · `https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI.woff2`
+- index.html:127 · external URL · `https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2`
+- index.html:131 · external URL · `https://fonts.gstatic.com/s/sourceserif4/v14/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjiiVqrhlXD-wGvjU.woff2`
+- index.html:132 · external URL · `https://fonts.gstatic.com/s/sourceserif4/v14/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjivBtrhlXD-wGvjU.woff2`
+- index.html:133 · external URL · `https://fonts.gstatic.com/s/sourceserif4/v14/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98poVhdDs4DrjXEXw.woff2`
+- index.html:134 · external URL · `https://fonts.gstatic.com/s/sourceserif4/v14/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pdF9dDs4DrjXEXw.woff2`
+- index.html:135 · external URL · `https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2`
+- index.html:136 · external URL · `https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2`
+- index.html:137 · external URL · `https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2`
+- index.html:138 · external URL · `https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2`
+- index.html:139 · external URL · `https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2`
+- index.html:140 · external URL · `https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2`
+- index.html:141 · external URL · `https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2`
+- index.html:142 · external URL · `https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`
+- index.html:143 · external URL · `https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`
+- index.html:144 · external URL · `https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`
+- index.html:145 · external URL · `https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`
+- index.html:146 · external URL · `https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`
+- index.html:147 · external URL · `https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`
+- index.html:148 · external URL · `https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2`
+- index.html:149 · external URL · `https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2`
+- index.html:150 · external URL · `https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2`
+- index.html:151 · external URL · `https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2`
+- index.html:152 · external URL · `https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2`
+- index.html:153 · external URL · `https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2`
+- index.html:154 · external URL · `https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2`
+- index.html:155 · external URL · `https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2`
+- index.html:156 · external URL · `https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2`
+- index.html:157 · external URL · `https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2`
+- index.html:158 · external URL · `https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2`
+- index.html:159 · external URL · `https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2`
+- index.html:160 · external URL · `https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2`
+- index.html:161 · external URL · `https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2`
+- index.html:162 · external URL · `https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2`
+- index.html:163 · external URL · `https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2`
+- index.html:164 · external URL · `https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2`
+- index.html:165 · external URL · `https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2`
+- index.html:166 · external URL · `https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2`
+- index.html:167 · external URL · `https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2`
+- index.html:168 · external URL · `https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2`
+- index.html:169 · external URL · `https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2`
+- index.html:170 · external URL · `https://framerusercontent.com/assets/khkJkwSL66WFg8SX6Wa726c.woff2`
+- index.html:171 · external URL · `https://framerusercontent.com/assets/0E7IMbDzcGABpBwwqNEt60wU0w.woff2`
+- index.html:172 · external URL · `https://framerusercontent.com/assets/NTJ0nQgIF0gcDelS14zQ9NR9Q.woff2`
+- index.html:173 · external URL · `https://framerusercontent.com/assets/QrcNhgEPfRl0LS8qz5Ln8olanl8.woff2`
+- index.html:174 · external URL · `https://framerusercontent.com/assets/JEXmejW8mXOYMtt0hyRg811kHac.woff2`
+- index.html:175 · external URL · `https://framerusercontent.com/assets/Bo5CNzBv77CafbxOtKIkpw9egw.woff2`
+- index.html:176 · external URL · `https://framerusercontent.com/assets/uy9s0iWuxiNnVt8EpTI3gzohpwo.woff2`
+- index.html:177 · external URL · `https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2`
+- index.html:178 · external URL · `https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2`
+- index.html:179 · external URL · `https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2`
+- index.html:180 · external URL · `https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2`
+- index.html:181 · external URL · `https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2`
+- index.html:182 · external URL · `https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2`
+- index.html:183 · external URL · `https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2`
+- index.html:184 · external URL · `https://framerusercontent.com/assets/vxBnBhH8768IFAXAb4Qf6wQHKs.woff2`
+- index.html:185 · external URL · `https://framerusercontent.com/assets/zSsEuoJdh8mcFVk976C05ZfQr8.woff2`
+- index.html:186 · external URL · `https://framerusercontent.com/assets/b8ezwLrN7h2AUoPEENcsTMVJ0.woff2`
+- index.html:187 · external URL · `https://framerusercontent.com/assets/mvNEIBLyHbscgHtwfsByjXUz3XY.woff2`
+- index.html:188 · external URL · `https://framerusercontent.com/assets/6FI2EneKzM3qBy5foOZXey7coCA.woff2`
+- index.html:189 · external URL · `https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2`
+- index.html:190 · external URL · `https://framerusercontent.com/assets/NHHeAKJVP0ZWHk5YZnQQChIsBM.woff2`
+- index.html:191 · external URL · `https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2`
+- index.html:192 · external URL · `https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2`
+- index.html:193 · external URL · `https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2`
+- index.html:194 · external URL · `https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2`
+- index.html:195 · external URL · `https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2`
+- index.html:196 · external URL · `https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2`
+- index.html:197 · external URL · `https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2`
+- index.html:198 · external URL · `https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2`
+- index.html:199 · external URL · `https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2`
+- index.html:200 · external URL · `https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2`
+- index.html:201 · external URL · `https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2`
+- index.html:202 · external URL · `https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2`
+- index.html:203 · external URL · `https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2`
+- index.html:204 · external URL · `https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2`
+- index.html:208 · external URL · `https://fonts.gstatic.com`
+- index.html:209 · external URL · `https://fonts.gstatic.com`
+- index.html:210 · external URL · `https://sites-template.framer.website/`
+- index.html:221 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CIQtmri3er9rB6tbNJBSgPDVh8.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N1KauAPPSjqZz8hGrXh914kem1A.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/iaPx1kxp4nAwpKPpRasCCPtXgA4.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/iaPx1kxp4nAwpKPpRasCCPtXgA4.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/ye17EMIMaOdtSKAd5W1sDlhDwg.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/ye17EMIMaOdtSKAd5W1sDlhDwg.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/z19mTh67d1jJYusPnvtG58fv3M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/z19mTh67d1jJYusPnvtG58fv3M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/BD3UbLIT0Kmd7BbzZQMynPdvVg.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=512&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=1024&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=2048&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N6EoV39lGWPCfgThZTqBWL9bHM.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/N6EoV39lGWPCfgThZTqBWL9bHM.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=512&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=1024&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=2048&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/lrNoeOIer7HnVjhbDJ34RlcwM.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/lrNoeOIer7HnVjhbDJ34RlcwM.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/hoDF9ejwzx07eK7xWkXnwmIDEU.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CC3fn8C8Rd0JtyUKvgeBcUsMmgI.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/CC3fn8C8Rd0JtyUKvgeBcUsMmgI.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/O5ZuKxyLd9lsMCXiGZsp70y38OQ.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/O5ZuKxyLd9lsMCXiGZsp70y38OQ.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/uMwa2jbDUK8tJIWOZf2E45c7M.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=512&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=1024&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?scale-down-to=2048&amp;width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/G2Qq7EjD6iiXD7oB62LTuBdU5d0.png?width=2121&amp;height=1592`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?scale-down-to=512&amp;width=576&amp;height=576`
+- index.html:449 · external URL · `https://framerusercontent.com/images/Ggxj3sY0v3q2au2M31nUcjW3iSY.png?width=576&amp;height=576`
+- index.html:449 · external URL · `https://buy.polar.sh/polar_cl_5EfNP7SgGoKNC0Mle2Yu9b5TFazIGhs1jgKu40P9twa`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:449 · external URL · `https://linkedin.com`
+- index.html:449 · external URL · `https://instagram.com`
+- index.html:449 · external URL · `https://x.com`
+- index.html:453 · external URL · `https://www.framer.com`
+- index.html:458 · external URL · `https://framerusercontent.com/images/dtAAgj9QR9nXVHwJTUkojVqsNw.png?scale-down-to=1024&width=1200&height=1200`
+- index.html:458 · external URL · `https://framerusercontent.com/images/ijcxfak4xA4RW6fUCYYa2lkDTsM.png?scale-down-to=1024&width=1200&height=1200`
+- index.html:458 · external URL · `https://framerusercontent.com/images/YIkrKx50u0dydme9Bw2iK7W20o.png?scale-down-to=1024&width=1200&height=904`
+
+## 结论
+- 需要处理上面的残留项后再声明可部署。

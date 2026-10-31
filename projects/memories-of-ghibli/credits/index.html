@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-innodevora.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta
+      name="description"
+      content="Credits, licenses and resources for Memories of Ghibli, an experimental, non-commercial student project inspired by the films of Hayao Miyazaki."
+      data-i18n-attr="content:credits.ghibli.description"
+    />
+    <title data-i18n="credits.ghibli.title">
+      Credits &amp; licenses — Memories of Ghibli | Innodevora
+    </title>
+    <link rel="canonical" href="https://innodevora.com/projects/memories-of-ghibli/credits/" />
+    <meta
+      property="og:title"
+      content="Credits &amp; licenses — Memories of Ghibli | Innodevora"
+      data-i18n-attr="content:credits.ghibli.title"
+    />
+    <meta
+      property="og:description"
+      content="Credits, licenses and resources for Memories of Ghibli, an experimental, non-commercial student project inspired by the films of Hayao Miyazaki."
+      data-i18n-attr="content:credits.ghibli.description"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://innodevora.com/projects/memories-of-ghibli/credits/" />
+    <meta property="og:image" content="https://innodevora.com/og/memories-of-ghibli.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Preview of Memories of Ghibli, an interactive 3D experience"
+      data-i18n-attr="content:credits.ghibli.imageAlt"
+    />
+    <script type="module" crossorigin src="/assets/setupCrossPageTransitions-CltNm_Hf.js?v=3"></script>
+    <script type="module" crossorigin src="/assets/setupHeaderVisibility-D-FHk4jp.js?v=2"></script>
+    <script type="module" crossorigin src="/assets/creditsPage-B4-9Ny6x.js?v=2"></script>
+    <link rel="stylesheet" crossorigin href="/assets/setupCrossPageTransitions-D60GSfRM.css">
+    <link rel="stylesheet" crossorigin href="/assets/setupHeaderVisibility-fOJvfYOR.css">
+    <link rel="stylesheet" crossorigin href="/assets/creditsPage-2AK_kgKV.css">
+      <link rel="stylesheet" href="/assets/dark-mode.css?v=2" />
+    <script src="/assets/dark-mode.js?v=1"></script>
+  </head>
+
+  <body class="credits-page" data-i18n-page="ghibli-credits">
+    <!-------- TRANSITION -------->
+    <script>
+      if (sessionStorage.getItem("pageTransitionPending") === "true") {
+        const storedColor = sessionStorage.getItem("pageTransitionColor")
+        const color = storedColor === "dark" ? "dark" : "cream"
+
+        const transition = document.createElement("div")
+
+        transition.classList.add("page-transition", `page-transition--${color}`)
+
+        transition.setAttribute("aria-hidden", "true")
+        document.body.prepend(transition)
+      }
+    </script>
+
+    <!-------- HEADER -------->
+    <header class="site-header"></header>
+
+    <a
+      class="credits-page__back"
+      href="/projects/memories-of-ghibli/"
+      aria-label="Back to Memories of Ghibli"
+      data-i18n-attr="aria-label:credits.ghibli.backLabel"
+    >
+      <span data-i18n="credits.ghibli.backText">Back to project</span>
+    </a>
+
+    <main class="credits-page__main">
+      <header class="credits-hero">
+        <p class="credits-hero__eyebrow">Memories of Ghibli</p>
+
+        <h1 class="credits-hero__title">
+          <span data-i18n="credits.ghibli.heroTitleLine1">Credits</span><br />
+          <span data-i18n="credits.ghibli.heroTitleLine2">&amp; licenses</span>
+        </h1>
+
+        <p class="credits-hero__intro" data-i18n="credits.ghibli.heroIntro">
+          Experimental, non-commercial student project inspired by the films of Hayao Miyazaki. This
+          unofficial creation is neither affiliated with nor endorsed by Studio Ghibli.
+        </p>
+
+        <nav
+          class="credits-hero__nav"
+          aria-label="Credits sections"
+          data-i18n-attr="aria-label:credits.ghibli.navigationLabel"
+        >
+          <a href="#models" data-i18n="credits.ghibli.navigationModels">3D Models</a>
+          <a href="#audio" data-i18n="credits.ghibli.navigationMusic">Music &amp; Sound</a>
+          <a href="#typography" data-i18n="credits.ghibli.navigationTypography">Typography</a>
+          <a href="#data">TMDB</a>
+          <a href="#production">Production</a>
+        </nav>
+      </header>
+
+      <div class="credits-content">
+        <section class="credits-section" id="models">
+          <h2 class="credits-section__title" data-i18n="credits.ghibli.modelsTitle">3D Models</h2>
+
+          <p class="credits-section__intro" data-i18n="credits.ghibli.modelsIntro">
+            External 3D models were curated, adapted and optimized in Blender for integration into a
+            WebGL experience.
+          </p>
+
+          <div class="credits-section__body">
+            <ul class="credits-list">
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/noface1446812-4da2f3d343454c34b7a5fd378a3707fe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Noface1446812 <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Feurum</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/soot-sprite-500f8c3f740c43589f46f8ef339de183"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Soot Sprite <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Duznot</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/luffy-hat-01fbdd1afd6a47c8b80a28d97197f1f8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Luffy Hat <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">anataboru</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/atom-rpg-low-poly-broom-2661b18596534962ac08879972721c00"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ATOM RPG Low-poly broom <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">KIFIR</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/kikis-delivery-service-kiki-3d7c0519e5164e62a7f5c68ee81ee9d5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kiki’s Delivery Service — Kiki <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">s10255129</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/howls-moving-castle-turnip-head-1e97101c0eec48fab876f366d8e46540"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Howl’s Moving Castle — Turnip Head
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">CJ / ncd.blueberry</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/howls-moving-castle-a5fcd7379db240bea690e4fca032e322"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Howl’s Moving Castle <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">lsebko</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/calcifer-howls-moving-castle-49fceff027814c31bae3bdf2e5e9e732"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Calcifer — Howl’s Moving Castle
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Berchello</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/princess-mononoke-mask-7925e6ef20e94ab080e9fbfc0447f6cf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Princess Mononoke Mask <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Sleepingcattoo</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/totoro-6d326fe31fe14f68baede868084fef2e"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Totoro <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Linda Loukonen</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/laputa-castle-in-the-sky-1bb76fabaafd40f29d9c7ee361ba4c67"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Laputa: Castle in the Sky <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">betaromeo</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY-NC-SA 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/gd51-mimifurst-mod2-2132f64e055145fba7a42f7941273870"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GD51_MimiFurst_MOD2 <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Mimi Fürst</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/robot-castle-in-the-sky-126b591e569d49adbee664403690d5f4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Robot Castle in the Sky <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">code.narcea</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/chihiro-walk-animation-03cef64adf954e8da604c3321dfda11a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Chihiro Walk Animation <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">falloister</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/bucket-from-ponyo-studio-ghibli-a2fe3eb1f81549939fb55c9397634e5b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bucket from Ponyo — Studio Ghibli
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">junkofjulz</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/spirited-away-lamppost-exercise-application-c2654aa8d284472a8f67eb84a00550d6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spirited Away LampPost <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">d.s.aylmer1</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/hotel-adriano-1h-30min-speed-model-fa280f5f0ccd4ce3a5f025a5e69883b3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hotel Adriano <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Seafoam</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/ponyo-on-a-boat-a3c18e9eb6804c0b89fee0677dabd8d6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ponyo on a Boat <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Uluncha</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/mononoke-sword-84c94f9f05dd48fb8caababb48f6c3f0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mononoke Sword <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Lasse Harm / GreenLineStudio</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/red-biplane-animated-34913c4d17eb438eb60da1035f5de114"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Red Biplane — Animated <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">WON</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/ramen-from-ponyo-5e614fea3aaf4e78bd82cf2b6e0e5c7a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ramen from Ponyo <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Discovered</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/kodoma-bored-5ccc597ff8ab4aebbb0afd3ce49bea00"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kodoma — Bored <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">itsbishoperic</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/kodoma-wobble-689f7129cf774ee1bd5d9aaf9251464c"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kodoma — Wobble <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">itsbishoperic</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/kodoma-dizzy-d0060b26ae3641a69cce71da17e90767"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kodoma — Dizzy <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">itsbishoperic</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/spirited-away-train-2f7c2bbc09614f1eba8e6ec7d8eb00e0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spirited Away Train <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">judpro</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/ghiblianime-style-rocks-smart-material-7cd29c1e388f4f17b95465e00e89fa17"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ghibli / Anime Style Rocks <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator"> Stylized Station / PixelGrapher </span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+
+              <li class="credits-list__item">
+                <a
+                  class="credits-list__model"
+                  href="https://sketchfab.com/3d-models/picnic-table-8085f3b2f4e940059059364745046e9b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Picnic Table <span aria-hidden="true">↗</span>
+                </a>
+
+                <span class="credits-list__creator">Plat</span>
+
+                <a
+                  class="credits-list__license"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </li>
+            </ul>
+
+            <p class="credits-section__note" data-i18n="credits.ghibli.modelsNote">
+              Additional models were generated with Tripo, then adapted, optimized and integrated by
+              the project team.
+            </p>
+          </div>
+        </section>
+
+        <section class="credits-section" id="audio">
+          <h2 class="credits-section__title" data-i18n="credits.ghibli.musicTitle">
+            Music &amp; Sound
+          </h2>
+
+          <div class="credits-section__body">
+            <div class="credits-resource">
+              <h3 class="credits-resource__title">Ethereal Relaxation</h3>
+
+              <p class="credits-resource__meta">Kevin MacLeod · Incompetech</p>
+
+              <p
+                class="credits-resource__description"
+                data-i18n="credits.ghibli.etherealDescription"
+              >
+                Ambient music featured in the experience.
+              </p>
+
+              <div class="credits-resource__links">
+                <a
+                  href="https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN2100031"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source ↗
+                </a>
+
+                <a
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC BY 4.0
+                </a>
+              </div>
+
+              <p class="credits-resource__legal">
+                “Ethereal Relaxation” Kevin MacLeod (incompetech.com)<br />
+                Licensed under Creative Commons: By Attribution 4.0 License.
+              </p>
+            </div>
+
+            <div class="credits-resource">
+              <h3 class="credits-resource__title">Sea Cliff Atmosphere</h3>
+
+              <p class="credits-resource__meta" data-i18n="credits.ghibli.seaCliffMeta">
+                BBC Sound Effects · Reference NHU05067080
+              </p>
+
+              <p class="credits-resource__description">
+                Sea-cliff — Summer — Day. Cliff-top with birds, flies and distant sea.
+              </p>
+
+              <div class="credits-resource__links">
+                <a
+                  href="https://sound-effects.bbcrewind.co.uk/search?q=NHU05067080"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source ↗
+                </a>
+
+                <a
+                  href="https://sound-effects.bbcrewind.co.uk/licensing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  BBC RemArc
+                </a>
+              </div>
+
+              <p class="credits-resource__legal" data-i18n="credits.ghibli.seaCliffLegal">
+                Used as part of an experimental, free and non-commercial student project.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="credits-section" id="typography">
+          <h2 class="credits-section__title" data-i18n="credits.ghibli.typographyTitle">
+            Typography
+          </h2>
+
+          <div class="credits-section__body">
+            <div class="credits-resource">
+              <h3 class="credits-resource__title">TeX Gyre Adventor</h3>
+
+              <p class="credits-resource__meta">GUST e-foundry</p>
+
+              <p
+                class="credits-resource__description"
+                data-i18n="credits.ghibli.typographyDescription"
+              >
+                Primary typeface used throughout the experience interface.
+              </p>
+
+              <div class="credits-resource__links">
+                <a
+                  href="https://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source ↗
+                </a>
+
+                <a
+                  href="https://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GUST Font License
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="credits-section" id="data">
+          <h2 class="credits-section__title" data-i18n="credits.ghibli.filmDataTitle">
+            Film Data
+          </h2>
+
+          <div class="credits-section__body">
+            <div class="credits-resource">
+              <h3 class="credits-resource__title">The Movie Database</h3>
+
+              <p class="credits-resource__meta">TMDB API</p>
+
+              <p
+                class="credits-resource__description"
+                data-i18n="credits.ghibli.filmDataDescription"
+              >
+                Posters, ratings, synopses and trailers featured in the experience are provided by
+                The Movie Database.
+              </p>
+
+              <div class="credits-resource__links">
+                <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="credits.ghibli.filmDataCta">Visit TMDB ↗</span>
+                </a>
+              </div>
+
+              <p class="credits-resource__legal">
+                This product uses the TMDB API but is not endorsed or certified by TMDB.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="credits-section" id="production">
+          <h2 class="credits-section__title">Production</h2>
+
+          <div class="credits-section__body">
+            <div class="credits-resource">
+              <h3 class="credits-resource__title" data-i18n="credits.ghibli.teamTitle">
+                Project Team
+              </h3>
+
+              <p class="credits-resource__description" data-i18n="credits.ghibli.teamIntro">
+                Memories of Ghibli was designed and developed as a collaborative student project.
+              </p>
+
+              <ul class="credits-team">
+                <li class="credits-team__member">
+                  <span class="credits-team__name">Innodevora</span>
+                  <span class="credits-team__role" data-i18n="credits.ghibli.innodevoraRole">
+                    Art direction, team leadership, 3D scene, environments and asset optimization
+                  </span>
+                </li>
+
+                <li class="credits-team__member">
+                  <span class="credits-team__name">Karen</span>
+                  <span class="credits-team__role" data-i18n="credits.ghibli.karenRole">
+                    GPU optimization, instancing and BVH
+                  </span>
+                </li>
+
+                <li class="credits-team__member">
+                  <span class="credits-team__name">Ramy</span>
+                  <span class="credits-team__role" data-i18n="credits.ghibli.ramyRole">
+                    Interface, HUD, progression system and API integration
+                  </span>
+                </li>
+
+                <li class="credits-team__member">
+                  <span class="credits-team__name">Nassim</span>
+                  <span class="credits-team__role" data-i18n="credits.ghibli.nassimRole">
+                    Gameplay experience, interactions and data management
+                  </span>
+                </li>
+              </ul>
+
+              <p class="credits-resource__legal" data-i18n="credits.ghibli.teamLegal">
+                Interfaces, graphic elements and resources not listed on this page were created,
+                generated or adapted by the project team.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="credits-footer">
+        <p class="credits-footer__label" data-i18n="credits.ghibli.footerLabel">
+          End of credits
+        </p>
+
+        <a class="credits-footer__link" href="/projects/memories-of-ghibli/">
+          <span data-i18n="credits.ghibli.footerBack">Back to project</span>
+          <span class="credits-footer__arrow" aria-hidden="true">↗</span>
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+# local data (database, encrypted OAuth tokens, uploads) - never commit
+data/
+.env
+__pycache__/
+*.pyc
