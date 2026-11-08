@@ -15,164 +15,196 @@
 /* One distinct mark per project, reused at brand size in the preview's nav and
    at icon size in the tab strip so each identity stays consistent. */
 const MARKS = {
-  haloform:
-    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".2"/>' +
-    '<path d="M12 3a9 9 0 1 0 0 18 6.6 6.6 0 0 1 0-18Z" fill="currentColor"/></svg>',
-  cartway:
-    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.7"/>' +
-    '<circle cx="12" cy="12" r="3.3" fill="currentColor"/>' +
-    '<path d="M12 3.6v2.6M12 17.8v2.6M3.6 12h2.6M17.8 12h2.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
-  ledgerly:
-    '<svg viewBox="0 0 24 24"><path d="M12 21.2v-8.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>' +
-    '<path d="M12 13.1c0-4.4 3.6-8 8-8 0 4.4-3.6 8-8 8Z" fill="currentColor"/>' +
-    '<path d="M12 16.4c0-3.1-2.5-5.6-5.6-5.6 0 3.1 2.5 5.6 5.6 5.6Z" fill="currentColor" opacity=".55"/></svg>',
-  signal:
-    '<svg viewBox="0 0 24 24"><path d="M11 2.6l1.9 6.5 6.5 1.9-6.5 1.9-1.9 6.5-1.9-6.5L2.6 11l6.5-1.9z" fill="currentColor"/>' +
-    '<path d="M18.6 3.2l.75 2.3 2.3.75-2.3.75-.75 2.3-.75-2.3-2.3-.75 2.3-.75z" fill="currentColor" opacity=".6"/></svg>'
+  innosol:
+    '<svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="1.7"/>' +
+    '<circle cx="12" cy="12" r="3" fill="currentColor"/>' +
+    '<path d="M8 3.5v2M12 3.5v2M16 3.5v2M8 18.5v2M12 18.5v2M16 18.5v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  innotvweb:
+    '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/>' +
+    '<path d="M10 9.2l5 2.8-5 2.8z" fill="currentColor"/>' +
+    '<path d="M8 21h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  innohotel:
+    '<svg viewBox="0 0 24 24"><path d="M4 20V8.5L12 4l8 4.5V20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>' +
+    '<path d="M8 20v-5h8v5M8 10h.01M12 10h.01M16 10h.01" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  space:
+    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".5"/>' +
+    '<circle cx="12" cy="12" r="3.2" fill="currentColor"/>' +
+    '<path d="M12 1.8v3.4M12 18.8v3.4M1.8 12h3.4M18.8 12h3.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+  carweb:
+    '<svg viewBox="0 0 24 24"><path d="M4 14l1.6-5h12.8L20 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>' +
+    '<path d="M3 14h18v4H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>' +
+    '<circle cx="7" cy="18" r="1.7" fill="currentColor"/><circle cx="17" cy="18" r="1.7" fill="currentColor"/></svg>'
 };
 
 /* ── projects ───────────────────────────────────────────────────────────── */
-/* Innodevora's own work: one project per discipline — UI/UX, frontend,
-   backend and full stack — each shown as its client's brand with the
-   address bar on innodevora.com/work/<slug>. Order matches the tab strip;
-   Cartway (the cyclist) is the initial active tab. Imagery
-   is local and each project uses a different file — nothing is shared. */
+/* Innodevora's live sites. Order matches the tab strip; InnoSol is the
+   initial active tab. Every image is an actual 1600x900 screenshot of the
+   live page, captured locally and stored under assets/images/work/. The
+   address bar and every preview CTA point at the project's real URL. */
 const PROJECTS = [
   {
-    id: 'haloform',
-    name: 'Haloform',
-    tabLabel: 'Haloform',
-    domain: 'innodevora.com/work/haloform',
-    logo: 'Haloform',
-    navLinks: ['Product', 'Design', 'Contact'],
-    ctaNav: 'Book a demo',
+    id: 'innosol',
+    name: 'InnoSol',
+    tabLabel: 'InnoSol',
+    url: 'https://innosol.netlify.app/',
+    displayUrl: 'innosol.netlify.app',
+    logo: 'InnoSol',
+    navLinks: ['The idea', 'Design', 'Finishes', 'Specifications'],
+    ctaNav: 'Choose your finish',
 
-    eyebrow: 'UI/UX Design',
-    headline: 'Interfaces that explain themselves.',
-    lede: 'Research, wireframes and a shipped design system for Haloform — every screen tested with real users before a line of code was written.',
-    ctaLabel: 'See the flows',
-    trustText: 'Trusted by 40+ Product Teams',
+    eyebrow: 'Product Website',
+    headline: 'Sound that holds the room.',
+    lede: 'A product launch site for the InnoSol HALO S1 portable spatial speaker.',
+    ctaLabel: 'Open InnoSol',
+    trustText: 'Live website',
 
-    image: '/projects/ornate/media/ornate-ellipse1.webp',
-    alt: 'Classical marble statue framed by coral ferns against a teal sky',
-    imgPos: '64% 44%',
+    image: '/assets/images/work/innosol.webp',
+    alt: "Screenshot of InnoSol's HALO S1 product homepage",
+    imgPos: '50% 50%',
 
-    accent: '#ffa27e',
-    accentSoft: 'rgba(255, 241, 236, .86)',
+    accent: '#f9f6ef',
+    accentSoft: 'rgba(249, 246, 239, .86)',
     headlineFont: "Satoshi-Variable, Arial, sans-serif",
     headlineWeight: '800',
-    headlineTracking: '-.035em',
+    headlineTracking: '-.03em',
     eyebrowTransform: 'uppercase',
     eyebrowTracking: '.2em',
     ledeWeight: '400',
-    pillBg: '#ff8f6b',
-    pillFg: '#1a0d08',
-    scrim:
-      'linear-gradient(96deg, rgba(14, 8, 6, .93) 0%, rgba(14, 8, 6, .76) 32%,' +
-      ' rgba(14, 8, 6, .36) 58%, rgba(14, 8, 6, .02) 100%)'
-  },
-  {
-    id: 'cartway',
-    name: 'Cartway',
-    tabLabel: 'Cartway',
-    domain: 'innodevora.com/work/cartway',
-    logo: 'Cartway',
-    navLinks: ['Shop', 'Journal', 'Support'],
-    ctaNav: 'Shop new in',
-
-    eyebrow: 'Frontend Engineering',
-    headline: 'A storefront that loads before you blink.',
-    lede: 'The Cartway storefront rebuilt by Innodevora — server-rendered pages, a checkout that never stutters and 98+ Lighthouse on every device.',
-    ctaLabel: 'View the build',
-    trustText: 'Trusted by 1.2M Shoppers',
-
-    image: '/brand/visionwork-hero.webp',
-    alt: 'Cyclist racing along a sunlit road, photographed with warm motion blur',
-    imgPos: '72% 46%',
-
-    accent: '#ffffff',
-    accentSoft: 'rgba(255, 255, 255, .84)',
-    headlineFont: "CabinetGrotesk-Variable, Arial, sans-serif",
-    headlineWeight: '700',
-    headlineTracking: '-.024em',
-    eyebrowTransform: 'none',
-    eyebrowTracking: '.16em',
-    ledeWeight: '400',
-    pillBg: '#ffffff',
+    pillBg: '#f9f6ef',
     pillFg: '#101010',
-    scrim:
-      'linear-gradient(96deg, rgba(9, 7, 6, .90) 0%, rgba(9, 7, 6, .62) 32%,' +
-      ' rgba(9, 7, 6, .20) 60%, rgba(9, 7, 6, 0) 100%)'
+    scrim: 'none'
   },
   {
-    id: 'ledgerly',
-    name: 'Ledgerly',
-    tabLabel: 'Ledgerly',
-    domain: 'innodevora.com/work/ledgerly',
-    logo: 'Ledgerly',
-    navLinks: ['Docs', 'Status', 'Pricing'],
-    ctaNav: 'Read the docs',
+    id: 'innotvweb',
+    name: 'InnoTVweb',
+    tabLabel: 'InnoTVweb',
+    url: 'https://innotvweb.netlify.app/',
+    displayUrl: 'innotvweb.netlify.app',
+    logo: 'InnoTVweb',
+    navLinks: ['Films', 'Television', 'Index'],
+    ctaNav: 'Browse films',
 
-    eyebrow: 'Backend & APIs',
-    headline: 'Money moves. Nothing breaks.',
-    lede: 'A payments ledger and API layer on Laravel and PostgreSQL — idempotent transactions, signed webhooks and an audit trail you can prove.',
-    ctaLabel: 'Explore the API',
-    trustText: '99.99% Uptime, 40+ Integrations',
+    eyebrow: 'Film Library',
+    headline: 'Discover the InnoTVweb library of Films',
+    lede: 'A cinematic film catalogue built around an interactive disc gallery.',
+    ctaLabel: 'Open InnoTVweb',
+    trustText: 'Live website',
 
-    image: '/playground/posters/playground-forest.webp',
-    alt: 'Glass sphere glowing on a forest floor as shafts of light fall through the trees',
-    imgPos: '58% 42%',
+    image: '/assets/images/work/innotvweb.webp',
+    alt: "Screenshot of InnoTVweb's film library homepage",
+    imgPos: '50% 50%',
 
-    accent: '#d3e3aa',
-    accentSoft: 'rgba(240, 246, 232, .84)',
-    headlineFont: "CabinetGrotesk-Variable, Arial, sans-serif",
-    headlineWeight: '450',
-    headlineTracking: '-.006em',
-    eyebrowTransform: 'none',
-    eyebrowTracking: '.22em',
-    ledeWeight: '400',
-    pillBg: '#e9efdc',
-    pillFg: '#12180c',
-    scrim:
-      'linear-gradient(96deg, rgba(6, 10, 7, .87) 0%, rgba(6, 10, 7, .56) 33%,' +
-      ' rgba(6, 10, 7, .16) 61%, rgba(6, 10, 7, 0) 100%)'
-  },
-  {
-    id: 'signal',
-    name: 'Signal',
-    tabLabel: 'Signal',
-    domain: 'innodevora.com/work/signal',
-    logo: 'Signal',
-    navLinks: ['Product', 'Models', 'Sign in'],
-    ctaNav: 'Open Signal',
-
-    eyebrow: 'Full-Stack Product',
-    headline: 'One team. The whole stack.',
-    lede: 'Signal is an AI research workspace designed, built and deployed by Innodevora — interface, application layer and inference API under one roof.',
-    ctaLabel: 'Start building',
-    trustText: 'Trusted by 9,000+ Teams',
-
-    image: '/contact/textures/sphere-desktop.webp',
-    alt: 'Soft violet and amber gradient glow resembling a luminous field',
-    imgPos: '52% 50%',
-
-    accent: '#b9a2ff',
-    accentSoft: 'rgba(238, 234, 255, .85)',
+    accent: '#111111',
+    accentSoft: 'rgba(17, 17, 17, .82)',
     headlineFont: "Satoshi-Variable, Arial, sans-serif",
     headlineWeight: '600',
-    headlineTracking: '-.018em',
+    headlineTracking: '-.02em',
     eyebrowTransform: 'uppercase',
     eyebrowTracking: '.2em',
     ledeWeight: '400',
-    pillBg: '#b9a2ff',
-    pillFg: '#120b26',
-    scrim:
-      'linear-gradient(96deg, rgba(9, 7, 16, .90) 0%, rgba(9, 7, 16, .62) 32%,' +
-      ' rgba(9, 7, 16, .22) 60%, rgba(9, 7, 16, 0) 100%)'
+    pillBg: '#111111',
+    pillFg: '#ffffff',
+    scrim: 'none'
+  },
+  {
+    id: 'innohotel',
+    name: 'InnoHotel',
+    tabLabel: 'InnoHotel',
+    url: 'https://innohotel.netlify.app/',
+    displayUrl: 'innohotel.netlify.app',
+    logo: 'InnoHotel',
+    navLinks: ['Stay', 'Dine', 'Experiences', 'Journal', 'Weddings'],
+    ctaNav: 'Book now',
+
+    eyebrow: 'Hospitality',
+    headline: 'La dolce vita',
+    lede: 'A boutique luxury hotel website with rooms, dining, experiences and direct reservations.',
+    ctaLabel: 'Open InnoHotel',
+    trustText: 'Live website',
+
+    image: '/assets/images/work/innohotel.webp',
+    alt: "Screenshot of InnoHotel's boutique hotel homepage",
+    imgPos: '50% 50%',
+
+    accent: '#e8d9b8',
+    accentSoft: 'rgba(232, 217, 184, .9)',
+    headlineFont: "CabinetGrotesk-Variable, Arial, sans-serif",
+    headlineWeight: '450',
+    headlineTracking: '-.01em',
+    eyebrowTransform: 'uppercase',
+    eyebrowTracking: '.2em',
+    ledeWeight: '400',
+    pillBg: '#e8d9b8',
+    pillFg: '#1f1a14',
+    scrim: 'none'
+  },
+  {
+    id: 'space',
+    name: 'Space',
+    tabLabel: 'Space',
+    url: 'https://spaceinnodevora.netlify.app/',
+    displayUrl: 'spaceinnodevora.netlify.app',
+    logo: 'Space',
+    navLinks: ['Space Service', 'Satellites', 'Contact'],
+    ctaNav: 'Design your mission',
+
+    eyebrow: 'Space Technology',
+    headline: 'Space missions made simple',
+    lede: 'A satellite mission design, launch and operations website for Innodevora Space.',
+    ctaLabel: 'Open Space',
+    trustText: 'Live website',
+
+    image: '/assets/images/work/space.webp',
+    alt: "Screenshot of Innodevora Space's satellite mission homepage",
+    imgPos: '50% 50%',
+
+    accent: '#2ea3ff',
+    accentSoft: 'rgba(46, 163, 255, .85)',
+    headlineFont: "Satoshi-Variable, Arial, sans-serif",
+    headlineWeight: '700',
+    headlineTracking: '-.025em',
+    eyebrowTransform: 'uppercase',
+    eyebrowTracking: '.2em',
+    ledeWeight: '400',
+    pillBg: '#2ea3ff',
+    pillFg: '#03101f',
+    scrim: 'none'
+  },
+  {
+    id: 'carweb',
+    name: 'CarWeb',
+    tabLabel: 'CarWeb',
+    url: 'https://carwebinnodevora.netlify.app/',
+    displayUrl: 'carwebinnodevora.netlify.app',
+    logo: 'CarWeb',
+    navLinks: ['Home', 'Projects', 'Services', 'About', 'Contact'],
+    ctaNav: 'Start driving',
+
+    eyebrow: 'Web Studio',
+    headline: 'Websites and web apps, made in New York.',
+    lede: 'An interactive studio website with a driveable 3D world and project gallery.',
+    ctaLabel: 'Open CarWeb',
+    trustText: 'Live website',
+
+    image: '/assets/images/work/carweb.webp',
+    alt: 'Screenshot of the CarWeb interactive studio homepage',
+    imgPos: '50% 50%',
+
+    accent: '#2563eb',
+    accentSoft: 'rgba(37, 99, 235, .85)',
+    headlineFont: "Satoshi-Variable, Arial, sans-serif",
+    headlineWeight: '700',
+    headlineTracking: '-.025em',
+    eyebrowTransform: 'uppercase',
+    eyebrowTracking: '.2em',
+    ledeWeight: '400',
+    pillBg: '#2563eb',
+    pillFg: '#ffffff',
+    scrim: 'none'
   }
 ];
 
-const INITIAL_ID = 'cartway';
+const INITIAL_ID = 'innosol';
 
 /* ── dom ────────────────────────────────────────────────────────────────── */
 const el = {
@@ -241,8 +273,20 @@ function buildTabs() {
     const label = document.createElement('span');
     label.textContent = p.tabLabel;
 
-    btn.append(icon, label);
-    btn.addEventListener('click', () => select(p.id));
+    /* The selected tab is also the live-site link: clicking an inactive tab
+       switches the preview, clicking the already-selected one opens the
+       project's real site. The small arrow only appears on the active tab. */
+    const open = document.createElement('span');
+    open.className = 'vw-tab__open';
+    open.setAttribute('aria-hidden', 'true');
+    open.innerHTML =
+      '<svg viewBox="0 0 24 24"><path d="M8 16 16 8M9 8h7v7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+    btn.append(icon, label, open);
+    btn.addEventListener('click', () => {
+      if (p.id === state.activeId) openProject(p);
+      else select(p.id);
+    });
     el.tabs.appendChild(btn);
   });
 }
@@ -252,8 +296,10 @@ function syncTabs() {
   const tabs = Array.from(el.tabs.querySelectorAll('.vw-tab'));
   tabs.forEach((t) => {
     const on = t.dataset.id === state.activeId;
+    const p = byId(t.dataset.id);
     t.setAttribute('aria-selected', String(on));
     t.tabIndex = on ? 0 : -1;
+    if (p) t.title = on ? 'Open ' + p.name + ' website in a new tab' : 'Preview ' + p.name;
   });
   const active = tabs.find((t) => t.dataset.id === state.activeId);
   if (active) {
@@ -334,29 +380,43 @@ function paint(p) {
   s.setProperty('--pill-fg', p.pillFg);
   s.setProperty('--scrim', p.scrim);
   el.site.dataset.project = p.id;
+  el.site.title = 'Open ' + p.name + ' website in a new tab';
 
-  el.url.textContent = p.domain;
+  el.url.textContent = p.displayUrl;
+  el.url.href = p.url;
+  el.url.setAttribute('aria-label', 'Open ' + p.name + ' website in a new tab');
 
+  el.brand.href = p.url;
+  el.brand.target = '_blank';
+  el.brand.rel = 'noopener';
   el.brandMark.innerHTML = MARKS[p.id];
   el.brandName.textContent = p.logo;
-  el.brand.setAttribute('aria-label', p.name + ' home');
+  el.brand.setAttribute('aria-label', p.name + ' website (opens in a new tab)');
 
   el.links.innerHTML = '';
   el.links.setAttribute('aria-label', p.name + ' navigation');
   p.navLinks.forEach((label) => {
     const a = document.createElement('a');
-    a.href = '#manifesto';
+    a.href = p.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
     a.textContent = label;
     el.links.appendChild(a);
   });
   el.navCta.textContent = p.ctaNav;
-  el.navCta.setAttribute('aria-label', p.ctaNav + ' — ' + p.name);
+  el.navCta.href = p.url;
+  el.navCta.target = '_blank';
+  el.navCta.rel = 'noopener';
+  el.navCta.setAttribute('aria-label', p.ctaNav + ' — ' + p.name + ' (opens in a new tab)');
 
   el.eyebrow.textContent = p.eyebrow;
   el.headline.textContent = p.headline;
   el.lede.textContent = p.lede;
   el.pillLabel.textContent = p.ctaLabel;
-  el.pill.setAttribute('aria-label', p.ctaLabel + ' — ' + p.name);
+  el.pill.href = p.url;
+  el.pill.target = '_blank';
+  el.pill.rel = 'noopener';
+  el.pill.setAttribute('aria-label', p.ctaLabel + ' — ' + p.name + ' (opens in a new tab)');
   el.trust.textContent = p.trustText;
 
   setHeroImage(p);
@@ -372,7 +432,7 @@ function render(opts) {
   const p = byId(state.activeId);
   syncTabs();
   syncHistoryButtons();
-  el.status.textContent = 'Now previewing ' + p.name + ' at ' + p.domain;
+  el.status.textContent = 'Now previewing ' + p.name + ' at ' + p.url;
 
   if (reduced()) { paint(p); return; }
 
@@ -417,7 +477,7 @@ function select(id, opts) {
 }
 
 /* ── auto-rotation ──────────────────────────────────────────────────────── */
-/* The strip advances on its own every second so all four projects get seen
+/* The strip advances on its own every second so all five projects get seen
    without any interaction. It yields the moment someone is actually using the
    window — pointer over it, keyboard focus inside it, the page tab hidden, or
    the banner scrolled mostly out of view — and it never runs under
@@ -478,7 +538,7 @@ function onReload() {
 
 async function onShare() {
   const p = byId(state.activeId);
-  const url = 'https://' + p.domain;
+  const url = p.url;
   try {
     if (navigator.clipboard) { await navigator.clipboard.writeText(url); }
     el.status.textContent = 'Copied ' + url + ' to the clipboard';
@@ -487,16 +547,26 @@ async function onShare() {
   }
 }
 
-/* The links inside the previewed site are part of the artwork, not real
-   navigation. They must be swallowed in the CAPTURE phase: the site installs
-   its own delegated anchor handler that rewrites the hash and runs the section
-   ScrollTrigger, so a plain bubble-phase preventDefault still let the page
-   jump to `#manifesto` when the preview's CTA was clicked. */
-function onSiteClick(e) {
-  const a = e.target.closest && e.target.closest('.vw-site a');
-  if (!a) return;
-  e.preventDefault();
-  e.stopPropagation();
+/* Open a project's real site in a new tab. A synthetic anchor click is used
+   instead of window.open() so the browser treats it like a normal link even
+   when the click landed on the preview image rather than a visible CTA. */
+function openProject(p) {
+  if (!p) return;
+  const a = document.createElement('a');
+  a.href = p.url;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  document.body.append(a);
+  a.click();
+  a.remove();
+}
+
+/* Clicking the screenshot itself opens the live site. The pill, address bar
+   and active tab each handle their own link, so this only catches empty areas
+   of the preview. */
+function onPreviewClick(e) {
+  if (e.target.closest && e.target.closest('a, button')) return;
+  openProject(byId(state.activeId));
 }
 
 /* ── boot ───────────────────────────────────────────────────────────────── */
@@ -506,7 +576,7 @@ if (READY) {
   el.fwd.addEventListener('click', onForward);
   el.reload.addEventListener('click', onReload);
   el.share.addEventListener('click', onShare);
-  document.addEventListener('click', onSiteClick, true);   // capture phase
+  el.site.addEventListener('click', onPreviewClick);
 
   buildTabs();
   preloadImages();

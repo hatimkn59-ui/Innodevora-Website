@@ -1,0 +1,43 @@
+services:
+  - type: web
+    name: innodevora
+    runtime: docker
+    plan: starter
+    region: frankfurt
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "3000"
+      - key: SITE_ORIGIN
+        sync: false
+      - key: TRUST_PROXY
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: DATA_DIR
+        value: /var/lib/innodevora/data
+      - key: DATABASE_PATH
+        value: /var/lib/innodevora/data/innodevora-chat.db
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      - key: AI_API_URL
+        sync: false
+      - key: AI_API_KEY
+        sync: false
+      - key: AI_MODEL
+        sync: false
+      - key: AI_KEYLESS_DEMO
+        value: "false"
+      - key: AI_TIMEOUT_MS
+        value: "45000"
+    disk:
+      name: innodevora-data
+      mountPath: /var/lib/innodevora/data
+      sizeGB: 1

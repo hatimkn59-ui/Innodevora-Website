@@ -16,3 +16,27 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Local secrets and runtime data
+.env
+.env.local
+.env.*.local
+server/.env
+data/
+mailer/.env
+mailer/data/
+
+# AI assistant runtime
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# Local AI development artifacts
+.claude-flow/
+graphify-out/
+scrolltest.html
+
+# Ignore environment variants, except safe examples
+.env.*
+!.env.example

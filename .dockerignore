@@ -1,0 +1,22 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+data
+graphify-out
+website2
+mailer
+tests
+docs
+.claude
+.claude-flow
+.impeccable
+.vscode
+DESIGN-MANIFEST.json
+DESIGN-HANDOFF.md
+AGENTS.md
+*.log
+
+# Local test pages
+scrolltest.html

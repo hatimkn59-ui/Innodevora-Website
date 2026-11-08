@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="color-scheme" content="light" />
+    <title>Lead Intelligence — Innodevora</title>
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-innodevora.svg" />
+    <link rel="stylesheet" href="/admin/admin.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Sign in ------------------------------------------------------------->
+    <section class="login-shell" id="login-view">
+      <div class="login-brand">
+        <a class="brand" href="/" aria-label="Innodevora home">
+          <img src="/brand/logo-innodevora.svg" alt="" class="brand__mark" />
+          <span class="brand__word">Innodevora</span>
+        </a>
+        <div class="login-brand__copy">
+          <p class="eyebrow">Private workspace</p>
+          <h1>Listen before<br /><em>you pitch.</em></h1>
+          <p>
+            The conversations, context and qualification signals behind every
+            Innodevora project enquiry — in one secure place.
+          </p>
+        </div>
+        <div class="login-brand__meta">
+          <div><span class="dot dot--live"></span> Lead intelligence</div>
+          <span>Authorized team only</span>
+        </div>
+      </div>
+      <div class="login-panel">
+        <form class="login-card" id="login-form" novalidate>
+          <p class="eyebrow">Admin access</p>
+          <h2>Welcome back.</h2>
+          <p class="muted">Sign in to review leads and visitor conversations.</p>
+          <label class="field">
+            <span>Username</span>
+            <input
+              id="login-username"
+              name="username"
+              type="text"
+              autocomplete="username"
+              spellcheck="false"
+              required
+            />
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input
+              id="login-password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              required
+            />
+          </label>
+          <div class="form-error" id="login-error" role="alert" hidden></div>
+          <button class="button button--primary button--wide" id="login-submit" type="submit">
+            <span>Sign in</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="login-card__foot">
+            Protected by rate limiting, session security and audit logging.
+            <a href="/">Return to website</a>
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Dashboard ---------------------------------------------------------->
+    <div class="shell" id="app-view" hidden>
+      <aside class="sidebar">
+        <a class="brand brand--sidebar" href="/" aria-label="Innodevora home">
+          <img src="/brand/logo-innodevora.svg" alt="" class="brand__mark" />
+          <span class="brand__word">Innodevora</span>
+        </a>
+
+        <div class="sidebar__label">Lead intelligence</div>
+        <nav class="nav" aria-label="Dashboard">
+          <button class="nav__item is-active" data-view="leads" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <span>Leads</span>
+            <span class="nav__count" id="nav-lead-count">—</span>
+          </button>
+          <button class="nav__item" data-view="assistant" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-8 7.5 8.6 8.6 0 0 1-2.8-.5L5 20l1.3-3.4A7 7 0 0 1 4 11.5 7.5 7.5 0 0 1 12 4a7.5 7.5 0 0 1 8 7.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <span>Assistant</span>
+          </button>
+          <button class="nav__item" data-view="audit" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8v5l3 2M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Audit log</span>
+          </button>
+          <button class="nav__item" data-view="settings" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.1 2.1-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21h-3v-.08A1.7 1.7 0 0 0 9.6 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.1-2.1.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H3v-3h.08A1.7 1.7 0 0 0 4.6 9.6a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.1-2.1.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-.6 1.7 1.7 0 0 0 .4-1.1V3h3v.08A1.7 1.7 0 0 0 14.4 4.6a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.1 2.1-.06.06A1.7 1.7 0 0 0 19.4 9c.1.37.31.7.6 1 .3.25.68.4 1.1.4H21v3h-.08a1.7 1.7 0 0 0-1.52.6Z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Settings</span>
+          </button>
+        </nav>
+
+        <div class="sidebar__bottom">
+          <div class="sidebar__status">
+            <span class="dot dot--live"></span>
+            <span id="ai-mode-label">Connecting…</span>
+          </div>
+          <a class="sidebar__link" href="/" target="_blank" rel="noopener">
+            View website
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <button class="sidebar__link sidebar__logout" id="logout-button" type="button">
+            Sign out
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5H5v14h5M14 8l4 4-4 4M18 12H9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="page-eyebrow">Overview</p>
+            <h1 class="topbar__title" id="page-title">Lead intelligence</h1>
+          </div>
+          <div class="topbar__actions">
+            <button class="button button--quiet" id="refresh-button" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.5 9A7.5 7.5 0 0 0 5.7 7.4M5.5 15A7.5 7.5 0 0 0 18.3 16.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Refresh</span>
+            </button>
+            <div class="user-chip" id="user-chip" title="Signed-in administrator">
+              <span class="avatar avatar--small" id="user-avatar">I</span>
+              <span class="user-chip__text"><strong id="user-name">—</strong><small id="user-role">—</small></span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Leads view -->
+        <section class="view" id="view-leads">
+          <div class="stats" id="stats-grid">
+            <article class="stat-card stat-card--dark">
+              <span class="stat-card__label">Total visitors</span>
+              <strong class="stat-card__value" id="stat-total">—</strong>
+              <span class="stat-card__foot"><span class="dot dot--live"></span> Persistent profiles</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">Consented leads</span>
+              <strong class="stat-card__value" id="stat-consented">—</strong>
+              <span class="stat-card__foot">Contact details authorized</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">Qualified</span>
+              <strong class="stat-card__value" id="stat-qualified">—</strong>
+              <span class="stat-card__foot">Score or active proposal</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">New this week</span>
+              <strong class="stat-card__value" id="stat-new">—</strong>
+              <span class="stat-card__foot">Last 7 days</span>
+            </article>
+            <article class="stat-card stat-card--accent">
+              <span class="stat-card__label">Average score</span>
+              <strong class="stat-card__value" id="stat-score">—</strong>
+              <span class="stat-card__foot">Intent signals, not demographics</span>
+            </article>
+          </div>
+
+          <div class="panel">
+            <div class="panel__head">
+              <div>
+                <p class="eyebrow">Pipeline</p>
+                <h2>Visitor conversations</h2>
+              </div>
+              <div class="panel__head-actions">
+                <button class="button button--quiet" id="export-button" type="button">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Export CSV
+                </button>
+              </div>
+            </div>
+
+            <div class="filters">
+              <label class="search">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                <input id="lead-search" type="search" placeholder="Search name, company, project…" autocomplete="off" />
+              </label>
+              <label class="select">
+                <span>Status</span>
+                <select id="status-filter">
+                  <option value="all">All statuses</option>
+                  <option value="new">New</option>
+                  <option value="exploring">Exploring</option>
+                  <option value="qualified">Qualified</option>
+                  <option value="quote_requested">Quote requested</option>
+                  <option value="human_requested">Human requested</option>
+                  <option value="contacted">Contacted</option>
+                  <option value="proposal_sent">Proposal sent</option>
+                  <option value="won">Won</option>
+                  <option value="lost">Lost</option>
+                  <option value="archived">Archived</option>
+                </select>
+              </label>
+              <label class="select">
+                <span>Consent</span>
+                <select id="consent-filter">
+                  <option value="all">Everyone</option>
+                  <option value="1">Consented only</option>
+                  <option value="0">Anonymous only</option>
+                </select>
+              </label>
+              <label class="select">
+                <span>Sort</span>
+                <select id="sort-filter">
+                  <option value="last_seen">Most recent</option>
+                  <option value="score">Highest score</option>
+                  <option value="first_seen">Oldest first</option>
+                  <option value="status">Status</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="table-wrap" id="leads-table-wrap">
+              <table class="leads-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Visitor</th>
+                    <th scope="col">Project</th>
+                    <th scope="col">Intent</th>
+                    <th scope="col">Score</th>
+                    <th scope="col">Last seen</th>
+                    <th scope="col"><span class="sr-only">Open</span></th>
+                  </tr>
+                </thead>
+                <tbody id="leads-body"></tbody>
+              </table>
+              <div class="lead-cards" id="lead-cards"></div>
+              <div class="empty-state" id="leads-empty" hidden>
+                <div class="empty-state__orb"></div>
+                <h3>No visitors match this view.</h3>
+                <p>Try a different search or filter. New conversations will appear here automatically.</p>
+              </div>
+              <div class="skeleton-list" id="leads-loading" hidden>
+                <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+              </div>
+            </div>
+
+            <div class="pagination">
+              <span id="pagination-label">—</span>
+              <div class="pagination__buttons">
+                <button class="icon-button" id="prev-page" type="button" aria-label="Previous page">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button class="icon-button" id="next-page" type="button" aria-label="Next page">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Assistant view -->
+        <section class="view" id="view-assistant" hidden>
+          <div class="settings-grid">
+            <div class="panel settings-card">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Control</p>
+                  <h2>Assistant availability</h2>
+                  <p class="panel__sub">Pause the visitor-facing assistant without changing the website or deleting data.</p>
+                </div>
+              </div>
+              <label class="switch-row" for="assistant-enabled">
+                <span class="switch">
+                  <input type="checkbox" id="assistant-enabled" />
+                  <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+                </span>
+                <span class="switch-row__text">
+                  <strong>Chatbot enabled</strong>
+                  <small id="assistant-enabled-note">Visitors can start conversations.</small>
+                </span>
+              </label>
+              <div class="settings-form__actions">
+                <button class="button button--primary" id="assistant-toggle-save" type="button">Save availability</button>
+              </div>
+              <div class="notice notice--soft" id="assistant-control-notice">
+                Pausing keeps conversations and leads intact. The widget shows a contact email instead of accepting messages.
+              </div>
+            </div>
+
+            <div class="panel settings-card">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Status</p>
+                  <h2>Live health</h2>
+                  <p class="panel__sub">Provider, knowledge and 24-hour usage. No message content is shown here.</p>
+                </div>
+              </div>
+              <dl class="health-list">
+                <div><dt>Assistant</dt><dd id="assistant-health-enabled">—</dd></div>
+                <div><dt>AI mode</dt><dd id="assistant-health-ai">—</dd></div>
+                <div><dt>Knowledge</dt><dd id="assistant-health-knowledge">—</dd></div>
+                <div><dt>Requests (24h)</dt><dd id="assistant-health-requests">—</dd></div>
+                <div><dt>Success / fallback / errors</dt><dd id="assistant-health-breakdown">—</dd></div>
+                <div><dt>Average latency</dt><dd id="assistant-health-latency">—</dd></div>
+                <div><dt>Last request</dt><dd id="assistant-health-last">—</dd></div>
+              </dl>
+            </div>
+
+            <div class="panel settings-card settings-card--wide">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Instructions</p>
+                  <h2>Assistant rules &amp; behavior</h2>
+                  <p class="panel__sub">Owner-approved guidance is appended to the built-in safety rules. It cannot override the non-negotiable business, privacy or consent rules.</p>
+                </div>
+              </div>
+              <form id="assistant-form" class="settings-form">
+                <label class="field">
+                  <span>Welcome message</span>
+                  <textarea id="assistant-welcome" rows="3" maxlength="600" required></textarea>
+                </label>
+                <label class="field">
+                  <span>Additional instructions</span>
+                  <textarea id="assistant-instructions" rows="8" maxlength="6000" placeholder="Example: Emphasize our AI assistant and SaaS work. Ask about the visitor's launch date before budget."></textarea>
+                </label>
+                <label class="field">
+                  <span>Suggested questions (one per line, max 6)</span>
+                  <textarea id="assistant-questions" rows="5" maxlength="1200"></textarea>
+                </label>
+                <div class="settings-form__actions">
+                  <button class="button button--primary" type="submit">Save instructions</button>
+                  <span class="form-hint" id="assistant-form-hint">Built-in safety rules always apply.</span>
+                </div>
+              </form>
+            </div>
+
+            <div class="panel settings-card settings-card--wide">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Conversations</p>
+                  <h2>Recent conversations</h2>
+                  <p class="panel__sub">Open a visitor profile to read the transcript and manage the lead.</p>
+                </div>
+              </div>
+              <div class="conversation-list" id="assistant-conversations"></div>
+              <div class="empty-state empty-state--compact" id="assistant-conversations-empty" hidden>
+                <h3>No conversations yet.</h3>
+                <p>New visitor conversations will appear here.</p>
+              </div>
+            </div>
+
+            <div class="panel settings-card settings-card--wide">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Diagnostics</p>
+                  <h2>Recent AI errors</h2>
+                  <p class="panel__sub">Metadata only. Message contents are never logged here.</p>
+                </div>
+              </div>
+              <div class="error-list" id="assistant-errors"></div>
+              <div class="empty-state empty-state--compact" id="assistant-errors-empty" hidden>
+                <h3>No recent errors.</h3>
+                <p>Provider failures and fallbacks will appear here.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Audit view -->
+        <section class="view" id="view-audit" hidden>
+          <div class="panel panel--spacious">
+            <div class="panel__head">
+              <div>
+                <p class="eyebrow">Security</p>
+                <h2>Audit log</h2>
+                <p class="panel__sub">Authentication, consent, retention and lead-management events. Message contents are never logged.</p>
+              </div>
+            </div>
+            <div class="audit-list" id="audit-list"></div>
+            <div class="empty-state" id="audit-empty" hidden>
+              <div class="empty-state__orb"></div>
+              <h3>No audit events yet.</h3>
+              <p>Administrative and privacy actions will appear here.</p>
+            </div>
+            <div class="pagination">
+              <span id="audit-page-label">—</span>
+              <div class="pagination__buttons">
+                <button class="icon-button" id="audit-prev" type="button" aria-label="Previous audit page">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button class="icon-button" id="audit-next" type="button" aria-label="Next audit page">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Settings view -->
+        <section class="view" id="view-settings" hidden>
+          <div class="settings-grid">
+            <div class="panel settings-card">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Privacy</p>
+                  <h2>Data retention</h2>
+                  <p class="panel__sub">Older records are purged automatically every hour. These values are stored in the database.</p>
+                </div>
+              </div>
+              <form id="retention-form" class="settings-form">
+                <label class="field">
+                  <span>Visitor profile retention (days)</span>
+                  <input id="retention-visitor" type="number" min="1" max="3650" required />
+                </label>
+                <label class="field">
+                  <span>Conversation retention (days)</span>
+                  <input id="retention-conversation" type="number" min="1" max="3650" required />
+                </label>
+                <div class="settings-form__actions">
+                  <button class="button button--primary" type="submit">Save retention</button>
+                  <button class="button button--danger" id="purge-button" type="button">Purge expired data now</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="panel settings-card">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">System</p>
+                  <h2>Assistant health</h2>
+                  <p class="panel__sub">Configuration and company knowledge status.</p>
+                </div>
+              </div>
+              <dl class="health-list" id="health-list">
+                <div><dt>AI mode</dt><dd id="health-ai">—</dd></div>
+                <div><dt>Knowledge</dt><dd id="health-knowledge">—</dd></div>
+                <div><dt>Knowledge version</dt><dd id="health-version">—</dd></div>
+                <div><dt>Last knowledge update</dt><dd id="health-updated">—</dd></div>
+                <div><dt>Database</dt><dd>SQLite · server-side</dd></div>
+                <div><dt>Admin role</dt><dd id="health-role">—</dd></div>
+              </dl>
+              <div class="notice notice--soft" id="settings-notice">
+                Provider keys never reach the browser. The raw knowledge Markdown is never served to visitors.
+              </div>
+            </div>
+
+            <div class="panel settings-card settings-card--wide">
+              <div class="panel__head">
+                <div>
+                  <p class="eyebrow">Access</p>
+                  <h2>Session security</h2>
+                </div>
+              </div>
+              <div class="security-grid">
+                <div>
+                  <h3>Server-side sessions</h3>
+                  <p>Admin sessions are hashed at rest, expire automatically and require a CSRF token for every change.</p>
+                </div>
+                <div>
+                  <h3>Role-based access</h3>
+                  <p>Owners and admins can update leads, export data and change retention. Viewers are read-only.</p>
+                </div>
+                <div>
+                  <h3>Audit trail</h3>
+                  <p>Logins, exports, deletions, consent events and retention changes are recorded without message content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Lead detail drawer ------------------------------------------------->
+    <dialog class="drawer" id="detail-dialog" aria-labelledby="detail-name">
+      <div class="drawer__inner">
+        <div class="drawer__top">
+          <div class="drawer__identity">
+            <span class="avatar avatar--large" id="detail-avatar">A</span>
+            <div>
+              <p class="eyebrow" id="detail-eyebrow">Visitor profile</p>
+              <h2 id="detail-name">—</h2>
+              <p class="drawer__sub" id="detail-sub">—</p>
+            </div>
+          </div>
+          <button class="icon-button icon-button--ghost" id="detail-close" type="button" aria-label="Close panel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+
+        <div class="drawer__scroll" id="detail-scroll">
+          <div class="detail-loading" id="detail-loading">Loading profile…</div>
+          <div id="detail-content" hidden>
+            <div class="detail-status-row">
+              <label class="select select--tight">
+                <span>Pipeline status</span>
+                <select id="detail-status">
+                  <option value="new">New</option>
+                  <option value="exploring">Exploring</option>
+                  <option value="qualified">Qualified</option>
+                  <option value="quote_requested">Quote requested</option>
+                  <option value="human_requested">Human requested</option>
+                  <option value="contacted">Contacted</option>
+                  <option value="proposal_sent">Proposal sent</option>
+                  <option value="won">Won</option>
+                  <option value="lost">Lost</option>
+                  <option value="archived">Archived</option>
+                </select>
+              </label>
+              <div class="detail-score">
+                <span>Lead score</span>
+                <strong id="detail-score">—</strong>
+                <div class="score-bar"><i id="detail-score-bar"></i></div>
+              </div>
+              <div class="detail-consent" id="detail-consent">—</div>
+            </div>
+
+            <div class="detail-section">
+              <h3>Conversation summary</h3>
+              <p class="detail-summary" id="detail-summary">—</p>
+            </div>
+
+            <div class="detail-section">
+              <h3>Profile</h3>
+              <dl class="detail-grid" id="detail-profile"></dl>
+            </div>
+
+            <div class="detail-section" id="detail-reasons-section">
+              <h3>Qualification signals</h3>
+              <ul class="reason-list" id="detail-reasons"></ul>
+            </div>
+
+            <div class="detail-section">
+              <h3>Conversation</h3>
+              <div class="transcript" id="detail-transcript"></div>
+            </div>
+
+            <div class="detail-section">
+              <h3>Consent history</h3>
+              <div class="consent-history" id="detail-consent-history"></div>
+            </div>
+
+            <div class="detail-danger">
+              <div>
+                <h3>Delete this visitor</h3>
+                <p>Removes the profile, conversations and consent history. This cannot be undone.</p>
+              </div>
+              <button class="button button--danger" id="detail-delete" type="button">Delete visitor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <noscript>This dashboard requires JavaScript.</noscript>
+    <script src="/admin/admin.js" defer></script>
+  </body>
+</html>
