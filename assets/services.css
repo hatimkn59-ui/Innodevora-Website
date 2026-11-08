@@ -954,38 +954,6 @@ body.services-page {
   line-height: 1.65;
 }
 
-.services-footer {
-  border-top: 1px solid var(--services-line);
-  padding: 32px clamp(20px, 5vw, 72px);
-}
-
-.services-footer__inner {
-  max-width: 1280px;
-  margin-inline: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-  color: var(--services-muted);
-}
-
-.services-footer a {
-  color: var(--services-text);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.services-footer a:hover {
-  text-decoration: underline;
-}
-
-.services-footer nav {
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
-}
-
 @media (max-width: 1120px) {
   .services-hero {
     grid-template-columns: 1fr;

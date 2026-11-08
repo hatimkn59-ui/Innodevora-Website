@@ -1,0 +1,55 @@
+/* =========================================================================
+   Shared compact footer
+   Used by the About, Services and Process pages.
+   The palette is declared here rather than borrowed from a page stylesheet,
+   so the footer renders identically on every page and in both themes.
+   ========================================================================= */
+
+.services-footer {
+  --footer-surface: #1f1d1d;
+  --footer-text: #f5e7df;
+  --footer-muted: rgba(245, 231, 223, 0.72);
+  --footer-line: rgba(245, 231, 223, 0.14);
+  background: var(--footer-surface);
+  border-top: 1px solid var(--footer-line);
+  padding: 32px clamp(20px, 5vw, 72px);
+  color: var(--footer-muted);
+  font-family: "Satoshi-Variable", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.services-footer__inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: var(--footer-muted);
+}
+
+.services-footer a {
+  color: var(--footer-text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.services-footer a:hover,
+.services-footer a:focus-visible {
+  text-decoration: underline;
+}
+
+.services-footer nav {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .services-footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+}

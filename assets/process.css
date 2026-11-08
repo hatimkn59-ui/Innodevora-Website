@@ -14,6 +14,7 @@ body.process-page {
   min-height: 100%;
   overflow: auto;
   overscroll-behavior: auto;
+  background: var(--color-dark);
 }
 
 .process-page .site-header {
